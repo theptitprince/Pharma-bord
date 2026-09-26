@@ -132,9 +132,23 @@ python -m unittest discover -s tests -v
 
 ## Limites
 
-* Le référentiel suit le texte de 2021 ; les instructions ultérieures de la
-  commission centrale de sécurité n'ont pas été vérifiées.
+* Le référentiel suit l'arrêté du 30 septembre 2021, version en vigueur vérifiée sur
+  Légifrance le 24/09/2026. Tout texte postérieur doit être reporté dans les fichiers
+  du dossier `referentiel/`.
 * Non couverts : le nécessaire de première urgence des radeaux et embarcations
   (annexe 333-1.A.1) et la liste des antidotes du GSMU (à suivre en hors dotation).
 * Le programme est une aide à la gestion ; il ne remplace ni les registres
-  officiels ni le contrôle annuel de la dotation.
+  officiels ni le contrôle annuel de la dotation, ni l'avis d'un médecin ou d'un
+  pharmacien. Il est fourni sans aucune garantie : vérifiez toujours les quantités
+  exigées au regard du texte officiel.
+
+## Données
+
+Aucune donnée de navire n'est fournie dans ce dépôt. La base `pharma_bord.db` est
+créée au premier lancement et reste sur votre poste ; elle est exclue du suivi git,
+comme les exports (bons de commande, inventaires).
+
+## Licence
+
+Code distribué sous licence GNU GPL v3 (voir `LICENSE`). Les textes réglementaires
+transcrits dans `referentiel/` sont des textes officiels publiés au Journal officiel.
