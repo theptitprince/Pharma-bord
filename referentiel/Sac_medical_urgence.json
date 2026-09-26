@@ -1,0 +1,557 @@
+{
+ "format": "pharma-bord/referentiel/1",
+ "code": "SMU",
+ "titre": "Sac médical d'urgence",
+ "conditions_emploi": "Navires à passagers sans obligation d'embarquer un médecin (sauf desserte côtière et vedettes à moins d'une heure d'un port). Annexe 217-3.A.4.",
+ "source": "Division 217 (arrêté du 23 novembre 1987 modifié), annexes 217-3.A.1 à A.4, rédaction issue de l'arrêté du 30 septembre 2021 (JORF 16/10/2021), en vigueur depuis le 17/10/2021. Vérifié conforme à la version en vigueur sur Légifrance le 24/09/2026 (aucune modification depuis le 17/10/2021).",
+ "medicaments": [
+  {
+   "categorie": "1. Cardiologie",
+   "articles": [
+    {
+     "dci": "Atropine",
+     "voie": "parentérale",
+     "forme": "ampoule 0,5 mg / 1 ml",
+     "quantite": 2,
+     "liste": "I"
+    },
+    {
+     "dci": "Epinéphrine",
+     "voie": "parentérale",
+     "forme": "ampoule 1 mg / 1 ml",
+     "quantite": 2,
+     "liste": "I"
+    },
+    {
+     "dci": "Epinéphrine",
+     "voie": "parentérale",
+     "forme": "ampoule 5 mg / 5 ml",
+     "quantite": 5,
+     "liste": "I"
+    },
+    {
+     "dci": "Furosémide",
+     "voie": "parentérale",
+     "forme": "ampoule 20 mg / 2 ml",
+     "quantite": 4,
+     "liste": "II"
+    },
+    {
+     "dci": "Trinitrine",
+     "voie": "buccale",
+     "forme": "flacon pulvérisation 0,15 mg / dose",
+     "quantite": 1,
+     "liste": "II"
+    },
+    {
+     "dci": "Digoxine",
+     "voie": "parentérale",
+     "forme": "ampoule 0,5 mg / 2 ml",
+     "quantite": 2,
+     "liste": "I"
+    },
+    {
+     "dci": "Amiodarone",
+     "voie": "parentérale",
+     "forme": "ampoule 150 mg / 3 ml",
+     "quantite": 2,
+     "liste": "I"
+    },
+    {
+     "dci": "Adénosine triphosphate",
+     "voie": "parentérale",
+     "forme": "ampoule 20 mg / 2 ml",
+     "quantite": 2,
+     "liste": "I"
+    },
+    {
+     "dci": "Magnésium sulfate",
+     "voie": "parentérale",
+     "forme": "ampoule 1,5 g / 10 ml",
+     "quantite": 2
+    },
+    {
+     "dci": "Aténolol",
+     "voie": "parentérale",
+     "forme": "ampoule 5 mg / 10 ml",
+     "quantite": 1,
+     "liste": "I"
+    },
+    {
+     "dci": "Urapidil",
+     "voie": "parentérale",
+     "forme": "ampoule 25 mg / 5 ml",
+     "quantite": 2,
+     "liste": "I"
+    },
+    {
+     "dci": "Héparine",
+     "voie": "parentérale",
+     "forme": "flacon 25 000 UI / 5 ml",
+     "quantite": 1,
+     "liste": "I"
+    },
+    {
+     "dci": "Acide acétylsalicylique",
+     "voie": "parentérale",
+     "forme": "ampoule 500 mg",
+     "quantite": 1
+    }
+   ]
+  },
+  {
+   "categorie": "2. Gastro-entérologie",
+   "articles": [
+    {
+     "dci": "Ondansétron",
+     "voie": "parentérale",
+     "forme": "ampoule 4 mg / 2 ml",
+     "quantite": 4,
+     "liste": "I"
+    }
+   ]
+  },
+  {
+   "categorie": "3. Antalgiques - Antipyrétiques - Antispasmodiques - Anti-inflammatoires",
+   "articles": [
+    {
+     "dci": "Kétoprofène",
+     "voie": "parentérale",
+     "forme": "ampoule 100 mg IV ou IM",
+     "quantite": 1,
+     "liste": "II"
+    },
+    {
+     "dci": "Paracétamol",
+     "voie": "parentérale",
+     "forme": "flacon 1 g / 100 ml",
+     "quantite": 1,
+     "liste": "II"
+    },
+    {
+     "dci": "Morphine chlorhydrate",
+     "voie": "parentérale",
+     "forme": "ampoule 10 mg / 1 ml",
+     "quantite": 2,
+     "liste": "Stupéfiant"
+    }
+   ]
+  },
+  {
+   "categorie": "4. Psychiatrie - Neurologie",
+   "articles": [
+    {
+     "dci": "Diazépam",
+     "voie": "parentérale",
+     "forme": "ampoule 10 mg / 2 ml",
+     "quantite": 2,
+     "liste": "I"
+    },
+    {
+     "dci": "Loxapine",
+     "voie": "parentérale",
+     "forme": "ampoule 50 mg / 2 ml",
+     "quantite": 2,
+     "liste": "I"
+    },
+    {
+     "dci": "Naloxone",
+     "voie": "parentérale",
+     "forme": "ampoule 0,4 mg / 1 ml",
+     "quantite": 5,
+     "liste": "I"
+    }
+   ]
+  },
+  {
+   "categorie": "5. Allergologie",
+   "articles": [
+    {
+     "dci": "Méthylprednisolone",
+     "voie": "parentérale",
+     "forme": "ampoule 120 mg",
+     "quantite": 1,
+     "liste": "I"
+    },
+    {
+     "dci": "Hydroxyzine",
+     "voie": "parentérale",
+     "forme": "ampoule 100 mg / 2 ml",
+     "quantite": 1,
+     "liste": "I"
+    }
+   ]
+  },
+  {
+   "categorie": "6. Pneumologie",
+   "articles": [
+    {
+     "dci": "Salbutamol",
+     "voie": "inhalation",
+     "forme": "flacon pressurisé 100 µg / dose - 200 doses",
+     "quantite": 1,
+     "liste": "I"
+    },
+    {
+     "dci": "Salbutamol",
+     "voie": "parentérale",
+     "forme": "ampoule 0,5 mg / 1 ml",
+     "quantite": 2,
+     "liste": "I"
+    },
+    {
+     "dci": "Salbutamol",
+     "voie": "nébulisation",
+     "forme": "unidose 5 mg / 2 ml",
+     "quantite": 2,
+     "liste": "I"
+    },
+    {
+     "dci": "Béclométasone",
+     "voie": "inhalation",
+     "forme": "flacon pressurisé 250 µg / dose",
+     "quantite": 1,
+     "liste": "I"
+    }
+   ]
+  },
+  {
+   "categorie": "7. Réanimation",
+   "articles": [
+    {
+     "dci": "Oxygène médical",
+     "voie": "inhalation",
+     "forme": "bouteille 2 l 200 bars avec manodétenteur-débitmètre 0 à 15 l/min",
+     "quantite": 1
+    },
+    {
+     "dci": "Chlorure de sodium",
+     "voie": "parentérale",
+     "forme": "solution pour perfusion 0,9 % 250 ml",
+     "quantite": 8
+    },
+    {
+     "dci": "Glucose",
+     "voie": "parentérale",
+     "forme": "solution pour perfusion 5 % 250 ml",
+     "quantite": 2
+    },
+    {
+     "dci": "Glucose hypertonique",
+     "voie": "parentérale",
+     "forme": "ampoule 30 % - 10 ml",
+     "quantite": 5
+    },
+    {
+     "dci": "Eau pour préparation injectable",
+     "voie": "parentérale",
+     "forme": "ampoule 20 ml",
+     "quantite": 2
+    }
+   ]
+  }
+ ],
+ "materiel": [
+  {
+   "categorie": "1. Matériel de réanimation",
+   "articles": [
+    {
+     "article": "Insufflateur manuel avec masques faciaux (tailles 4 et 5) et réservoir à oxygène",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "type Ambu®"
+    },
+    {
+     "article": "Canules de Guedel (tailles 3 et 4)",
+     "presentation": "unité",
+     "quantite": 1
+    },
+    {
+     "article": "Pompe d'aspiration manuelle pour désobstruction des voies aériennes supérieures",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "type Ambu® Twin Pump"
+    },
+    {
+     "article": "Canule d'aspiration Yankauer",
+     "presentation": "unité",
+     "quantite": 2
+    },
+    {
+     "article": "Sonde d'aspiration",
+     "presentation": "unité",
+     "quantite": 2,
+     "remarques": "calibre 14 FG"
+    },
+    {
+     "article": "Masque à oxygène adulte (haute et moyenne concentration) avec tubulure",
+     "presentation": "unité",
+     "quantite": 2,
+     "remarques": "usage unique"
+    },
+    {
+     "article": "Nébuliseur avec masque aérosol et tubulure",
+     "presentation": "unité",
+     "quantite": 2,
+     "remarques": "usage unique"
+    },
+    {
+     "article": "Laryngoscope avec lames Mac Intosh",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "petite, moyenne, grande"
+    },
+    {
+     "article": "Sonde endotrachéale",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "tailles 5, 6, 7, 8"
+    },
+    {
+     "article": "Pinces de Magill",
+     "presentation": "unité",
+     "quantite": 1
+    },
+    {
+     "article": "Mandrin flexible pour sonde endotrachéale",
+     "presentation": "unité",
+     "quantite": 1
+    }
+   ]
+  },
+  {
+   "categorie": "2. Instruments",
+   "articles": [
+    {
+     "article": "Ciseaux universels",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "type Jesko®"
+    },
+    {
+     "article": "Ciseaux droits à pansement",
+     "presentation": "set stérile",
+     "quantite": 1,
+     "remarques": "usage unique"
+    },
+    {
+     "article": "Clamp ombilical",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "usage unique"
+    },
+    {
+     "article": "Gants de chirurgie poudrés stériles",
+     "presentation": "paire",
+     "quantite": 2,
+     "remarques": "taille 7,5 et 8,5"
+    },
+    {
+     "article": "Set de drainage thoracique avec valve double aspirante/foulante",
+     "presentation": "set stérile",
+     "quantite": 1,
+     "remarques": "recommandé"
+    }
+   ]
+  },
+  {
+   "categorie": "3. Matériel d'examen et de surveillance médicale",
+   "articles": [
+    {
+     "article": "Lampe stylo",
+     "presentation": "unité",
+     "quantite": 1
+    },
+    {
+     "article": "Bandelettes réactives pour glycémie capillaire (avec lecteur)",
+     "presentation": "boîte",
+     "quantite": 1,
+     "remarques": "avec lancettes capillaires de sécurité"
+    },
+    {
+     "article": "Stéthoscope",
+     "presentation": "unité",
+     "quantite": 1
+    },
+    {
+     "article": "Tensiomètre",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "automatique à brassard huméral"
+    },
+    {
+     "article": "Gants d'examen non stériles",
+     "presentation": "paire",
+     "quantite": 2,
+     "remarques": "taille M et L"
+    },
+    {
+     "article": "Fiche d'observation médicale",
+     "presentation": "unité",
+     "quantite": 2,
+     "remarques": "pour téléconsultation médicale"
+    }
+   ]
+  },
+  {
+   "categorie": "4. Matériel d'injection et de perfusion",
+   "articles": [
+    {
+     "article": "Compresses de gaze stériles",
+     "presentation": "paquet de 5",
+     "quantite": 2,
+     "remarques": "taille moyenne"
+    },
+    {
+     "article": "Chlorhexidine - Benzalkonium chlorure - Alcool benzylique",
+     "presentation": "flacon 40 ml",
+     "quantite": 1,
+     "remarques": "usage local"
+    },
+    {
+     "article": "Aiguille à injection sous-cutanée stérile (25 G - 0,5 x 16)",
+     "presentation": "unité",
+     "quantite": 4,
+     "remarques": "usage unique"
+    },
+    {
+     "article": "Aiguille à injection intraveineuse stérile (23 G - 0,6 x 25)",
+     "presentation": "unité",
+     "quantite": 4,
+     "remarques": "usage unique"
+    },
+    {
+     "article": "Aiguille à injection intramusculaire stérile (21 G - 0,8 x 40)",
+     "presentation": "unité",
+     "quantite": 4,
+     "remarques": "usage unique"
+    },
+    {
+     "article": "Aiguille à injection stérile (19 G - 1,1 x 40) : trocart",
+     "presentation": "unité",
+     "quantite": 4,
+     "remarques": "usage unique"
+    },
+    {
+     "article": "Champ adhésif transparent (10 cm x 14 cm)",
+     "presentation": "unité",
+     "quantite": 2,
+     "remarques": "fixation de cathéter"
+    },
+    {
+     "article": "Cathéter intraveineux court 20 G",
+     "presentation": "unité",
+     "quantite": 2,
+     "remarques": "usage unique"
+    },
+    {
+     "article": "Cathéter intraveineux court 18 G",
+     "presentation": "unité",
+     "quantite": 2,
+     "remarques": "usage unique"
+    },
+    {
+     "article": "Cathéter intraveineux court 16 G",
+     "presentation": "unité",
+     "quantite": 2,
+     "remarques": "usage unique"
+    },
+    {
+     "article": "Seringue 1 ml",
+     "presentation": "unité",
+     "quantite": 2,
+     "remarques": "usage unique"
+    },
+    {
+     "article": "Seringue 5 ml",
+     "presentation": "unité",
+     "quantite": 2,
+     "remarques": "usage unique"
+    },
+    {
+     "article": "Seringue 10 ml",
+     "presentation": "unité",
+     "quantite": 2,
+     "remarques": "usage unique"
+    },
+    {
+     "article": "Nécessaire à perfusion",
+     "presentation": "set stérile",
+     "quantite": 2,
+     "remarques": "avec site d'injection"
+    },
+    {
+     "article": "Garrot en caoutchouc pour voie veineuse",
+     "presentation": "unité",
+     "quantite": 1
+    },
+    {
+     "article": "Collecteur d'aiguilles",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "0,45 litre"
+    }
+   ]
+  },
+  {
+   "categorie": "5. Trousse de premiers secours",
+   "conditions": [
+    "kit:trousse"
+   ],
+   "articles": [
+    {
+     "article": "Compresses de gaze stériles",
+     "presentation": "paquet de 5",
+     "quantite": 2,
+     "remarques": "taille moyenne"
+    },
+    {
+     "article": "Chlorhexidine solution aqueuse 0,05 %",
+     "presentation": "unidose",
+     "quantite": 2
+    },
+    {
+     "article": "Coussin hémostatique",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "type CHUT®"
+    },
+    {
+     "article": "Bande de crêpe (10 cm)",
+     "presentation": "rouleau 4 m",
+     "quantite": 1,
+     "remarques": "type Velpeau®"
+    },
+    {
+     "article": "Bande auto-adhésive (10 cm)",
+     "presentation": "rouleau 4 m",
+     "quantite": 1,
+     "remarques": "type Coheban®"
+    },
+    {
+     "article": "Pansement adhésif",
+     "presentation": "boîte",
+     "quantite": 1,
+     "remarques": "assortiment 3 tailles"
+    },
+    {
+     "article": "Gants d'examen non stériles",
+     "presentation": "paire",
+     "quantite": 4,
+     "remarques": "taille M et L"
+    }
+   ]
+  },
+  {
+   "categorie": "6. Matériel de téléconsultation cardiologique",
+   "articles": [
+    {
+     "article": "Appareil d'enregistrement ECG avec transmission (INMARSAT ou HF) - dérivations standard aux membres",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "possibilité de branchement sur l'ordinateur du bord non obligatoire ; en l'absence d'autre appareil ECG/scope avec télétransmission ; un seul exemplaire obligatoire s'il est déjà dans la dotation du navire"
+    }
+   ]
+  }
+ ]
+}

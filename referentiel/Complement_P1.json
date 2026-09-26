@@ -1,0 +1,116 @@
+{
+ "format": "pharma-bord/referentiel/1",
+ "code": "P1",
+ "titre": "Complément passagers P1",
+ "conditions_emploi": "Navires à passagers de jauge brute ≥ 500 (hors P2, P3, P4). Médicaments fixés par le service médical de la compagnie.",
+ "source": "Division 217 (arrêté du 23 novembre 1987 modifié), annexes 217-3.A.1 à A.4, rédaction issue de l'arrêté du 30 septembre 2021 (JORF 16/10/2021), en vigueur depuis le 17/10/2021. Vérifié conforme à la version en vigueur sur Légifrance le 24/09/2026 (aucune modification depuis le 17/10/2021).",
+ "medicaments": [],
+ "materiel": [
+  {
+   "categorie": "1. Matériel de réanimation cardio-respiratoire",
+   "articles": [
+    {
+     "article": "Aspirateur électrique autonome (désobstruction des voies aériennes supérieures)",
+     "presentation": "unité",
+     "quantite": 1
+    },
+    {
+     "article": "Electrocardiographe",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "moniteur multifonction recommandé (cardioscope, pression artérielle, oxymétrie de pouls, défibrillateur, télétransmission de l'ECG)"
+    },
+    {
+     "article": "Défibrillateur automatisé externe",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "avec 2 sets d'électrodes et 1 tapis isolant"
+    },
+    {
+     "article": "Nécessaire à intubation trachéale avec jeu de sondes",
+     "presentation": "unité",
+     "quantite": 1
+    },
+    {
+     "article": "Respirateur de transport",
+     "presentation": "unité",
+     "quantite": 1
+    }
+   ]
+  },
+  {
+   "categorie": "2. Equipement du service médical du navire",
+   "articles": [
+    {
+     "article": "Table d'examen",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "permettant les positions demi-assise et gynécologique"
+    },
+    {
+     "article": "Table roulante porte-instruments",
+     "presentation": "unité",
+     "quantite": 1
+    },
+    {
+     "article": "Scialytique mobile",
+     "presentation": "unité",
+     "quantite": 1
+    },
+    {
+     "article": "Lave-mains à commande déportée",
+     "presentation": "unité",
+     "quantite": 1
+    },
+    {
+     "article": "Stérilisateur",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "si instruments non à usage unique"
+    }
+   ]
+  },
+  {
+   "categorie": "3. Matériel d'immobilisation et de contention",
+   "articles": [
+    {
+     "article": "Civière polyvalente treuillable",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "avec dispositif de contention type Bellisle®"
+    },
+    {
+     "article": "Collier d'immobilisation cervicale",
+     "presentation": "set de tailles enfant",
+     "quantite": 1
+    },
+    {
+     "article": "Nécessaire à pansement et à suture",
+     "presentation": "-",
+     "quantite": "complément à fixer par la compagnie"
+    },
+    {
+     "article": "Nécessaire à perfusion",
+     "presentation": "-",
+     "quantite": "complément à fixer par la compagnie"
+    },
+    {
+     "article": "Equipement et matériel de chirurgie",
+     "presentation": "-",
+     "quantite": "complément à fixer par la compagnie"
+    }
+   ]
+  },
+  {
+   "categorie": "4. Sac médical d'urgence",
+   "articles": [
+    {
+     "article": "Sac médical d'urgence",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "voir annexe 217-3.A.4 (contenu détaillé dans la section « Sac médical d'urgence »)"
+    }
+   ]
+  }
+ ]
+}

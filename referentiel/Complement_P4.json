@@ -1,0 +1,200 @@
+{
+ "format": "pharma-bord/referentiel/1",
+ "code": "P4",
+ "titre": "Complément passagers P4",
+ "conditions_emploi": "Navires à passagers ne se trouvant jamais à plus d'une heure d'un port.",
+ "source": "Division 217 (arrêté du 23 novembre 1987 modifié), annexes 217-3.A.1 à A.4, rédaction issue de l'arrêté du 30 septembre 2021 (JORF 16/10/2021), en vigueur depuis le 17/10/2021. Vérifié conforme à la version en vigueur sur Légifrance le 24/09/2026 (aucune modification depuis le 17/10/2021).",
+ "medicaments": [
+  {
+   "categorie": "1. Allergologie",
+   "articles": [
+    {
+     "dci": "Epinéphrine",
+     "voie": "parentérale",
+     "forme": "seringue préremplie auto-injectable 0,3 mg / 0,3 ml",
+     "quantite": 2,
+     "liste": "I",
+     "conditions": [
+      "court_trajet"
+     ]
+    },
+    {
+     "dci": "Prednisolone",
+     "voie": "sublinguale",
+     "forme": "lyophilisat oral 20 mg",
+     "quantite": 20,
+     "liste": "I"
+    }
+   ]
+  },
+  {
+   "categorie": "2. Pneumologie",
+   "articles": [
+    {
+     "dci": "Terbutaline",
+     "voie": "nébulisation",
+     "forme": "solution inhalation unidose 5 mg / 2 ml",
+     "quantite": 20,
+     "liste": "I",
+     "conditions": [
+      "court_trajet"
+     ]
+    },
+    {
+     "dci": "Ipratropium bromure",
+     "voie": "nébulisation",
+     "forme": "solution inhalation unidose 0,5 mg / 2 ml",
+     "quantite": 20,
+     "liste": "I",
+     "conditions": [
+      "court_trajet"
+     ]
+    }
+   ]
+  }
+ ],
+ "materiel": [
+  {
+   "categorie": "1. Matériel de réanimation",
+   "articles": [
+    {
+     "article": "Canule oro-pharyngée tailles 1 et 2 (pédiatrie)",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "type Guedel®"
+    },
+    {
+     "article": "Oxygène médical",
+     "presentation": "bouteille de 2 l 200 bars",
+     "quantite": 1,
+     "remarques": "bouteille munie d'un robinet avec manodétenteur-débitmètre de 0 à 15 l/min et prises normalisées",
+     "conditions": [
+      "court_trajet"
+     ]
+    },
+    {
+     "article": "Insufflateur manuel avec réservoir à oxygène",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "ballon auto-remplisseur à valve unidirectionnelle type Ambu®",
+     "conditions": [
+      "court_trajet"
+     ]
+    },
+    {
+     "article": "Masque facial pour insufflateur manuel, taille 5 (adulte)",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "usage unique",
+     "conditions": [
+      "court_trajet"
+     ]
+    },
+    {
+     "article": "Masque facial pour insufflateur manuel, taille 3 (pédiatrie)",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "usage unique",
+     "conditions": [
+      "court_trajet"
+     ]
+    },
+    {
+     "article": "Aspirateur de mucosités (à pied, à main ou automatique) avec tuyau d'aspiration",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "type Ambu® Twin Pump",
+     "conditions": [
+      "court_trajet"
+     ]
+    },
+    {
+     "article": "Sonde d'aspiration buccale",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "CH 26",
+     "conditions": [
+      "court_trajet"
+     ]
+    },
+    {
+     "article": "Masque à oxygène à haute concentration (adulte) avec tubulure",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "usage unique",
+     "conditions": [
+      "court_trajet"
+     ]
+    },
+    {
+     "article": "Masque aérosol pour nébulisation de médicaments (adulte) avec tubulure",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "usage unique",
+     "conditions": [
+      "court_trajet"
+     ]
+    },
+    {
+     "article": "Masque aérosol pour nébulisation de médicaments (pédiatrie) avec tubulure",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "usage unique",
+     "conditions": [
+      "court_trajet"
+     ]
+    }
+   ]
+  },
+  {
+   "categorie": "2. Défibrillateur automatisé externe",
+   "articles": [
+    {
+     "article": "Défibrillateur automatisé externe",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "avec 2 sets d'électrodes et 1 tapis isolant - obligatoire à partir de 400 passagers",
+     "conditions": [
+      "pax400"
+     ]
+    }
+   ]
+  },
+  {
+   "categorie": "3. Matériel d'examen et de surveillance médicale",
+   "articles": [
+    {
+     "article": "Tensiomètre",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "automatique à brassard huméral"
+    },
+    {
+     "article": "Oxymètre de pouls",
+     "presentation": "unité",
+     "quantite": 1,
+     "conditions": [
+      "court_trajet"
+     ]
+    },
+    {
+     "article": "Lecteur de glycémie capillaire",
+     "presentation": "unité",
+     "quantite": 1,
+     "conditions": [
+      "court_trajet"
+     ]
+    },
+    {
+     "article": "Bandelettes réactives pour glycémie capillaire (compatibles avec le lecteur)",
+     "presentation": "boîte",
+     "quantite": 1,
+     "remarques": "avec lancettes capillaires sécurisées, conditionnées à l'unité et non en barillet",
+     "conditions": [
+      "court_trajet"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+# Données propres à chaque navire : jamais dans le dépôt
+*.db
+*.db-journal
+*.db.*
+notes_saisie_*.txt
+rapport_import_*.txt
+
+# Exports générés par le programme
+bon_de_commande*.html
+etat_*.html
+commande_*.csv
+inventaire*.csv
+inventaire*.xlsx
+historique_*.csv
+*.xlsx
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/

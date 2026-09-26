@@ -1,0 +1,86 @@
+{
+ "format": "pharma-bord/referentiel/1",
+ "code": "CAT5",
+ "titre": "Dotation 5e catégorie",
+ "conditions_emploi": "Navires armés en 5e catégorie de navigation.",
+ "source": "Division 217 (arrêté du 23 novembre 1987 modifié), annexes 217-3.A.1 à A.4, rédaction issue de l'arrêté du 30 septembre 2021 (JORF 16/10/2021), en vigueur depuis le 17/10/2021. Vérifié conforme à la version en vigueur sur Légifrance le 24/09/2026 (aucune modification depuis le 17/10/2021).",
+ "medicaments": [
+  {
+   "categorie": "1. Médicaments",
+   "articles": [
+    {
+     "dci": "Chlorhexidine",
+     "voie": "locale",
+     "forme": "solution aqueuse 0,2 % unidose 5 ml",
+     "quantite": "2 à 16 selon le nombre de marins"
+    },
+    {
+     "dci": "Paracétamol",
+     "voie": "sublinguale",
+     "forme": "lyophilisat oral 500 mg",
+     "quantite": "1 boîte"
+    }
+   ]
+  }
+ ],
+ "materiel": [
+  {
+   "categorie": "1. Matériel",
+   "articles": [
+    {
+     "article": "Coussin hémostatique",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "type CHUT®"
+    },
+    {
+     "article": "Sutures cutanées adhésives (8 x 75 mm)",
+     "presentation": "pochette de 3",
+     "quantite": 2
+    },
+    {
+     "article": "Pansement adhésif stérile étanche",
+     "presentation": "boîte",
+     "quantite": 1,
+     "remarques": "assortiment 3 tailles"
+    },
+    {
+     "article": "Sparadrap",
+     "presentation": "boîte",
+     "quantite": 1
+    },
+    {
+     "article": "Compresse de gaze stérile",
+     "presentation": "paquet de 5",
+     "quantite": 2
+    },
+    {
+     "article": "Bande de crêpe 400 x 5 cm",
+     "presentation": "unité",
+     "quantite": 2,
+     "remarques": "type Velpeau®"
+    },
+    {
+     "article": "Ciseaux universels",
+     "presentation": "paire",
+     "quantite": 1
+    },
+    {
+     "article": "Gel antiseptique hydroalcoolique pour la peau saine",
+     "presentation": "flacon 100 ml",
+     "quantite": 1
+    },
+    {
+     "article": "Sérum physiologique en dosettes",
+     "presentation": "boîte",
+     "quantite": 1
+    },
+    {
+     "article": "Gants d'examen non stériles",
+     "presentation": "paire",
+     "quantite": "taille L et M"
+    }
+   ]
+  }
+ ]
+}

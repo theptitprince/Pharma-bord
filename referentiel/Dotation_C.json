@@ -1,0 +1,427 @@
+{
+ "format": "pharma-bord/referentiel/1",
+ "code": "C",
+ "titre": "Dotation C",
+ "conditions_emploi": "Navires ne s'éloignant pas à plus de 20 milles des côtes.",
+ "source": "Division 217 (arrêté du 23 novembre 1987 modifié), annexes 217-3.A.1 à A.4, rédaction issue de l'arrêté du 30 septembre 2021 (JORF 16/10/2021), en vigueur depuis le 17/10/2021. Vérifié conforme à la version en vigueur sur Légifrance le 24/09/2026 (aucune modification depuis le 17/10/2021).",
+ "medicaments": [
+  {
+   "categorie": "1. Cardiologie",
+   "articles": [
+    {
+     "dci": "Acide acétylsalicylique",
+     "voie": "orale",
+     "forme": "sachet 300 mg",
+     "quantite": 20
+    },
+    {
+     "dci": "Trinitrine",
+     "voie": "sublinguale",
+     "forme": "flacon pulvérisation 0,15 mg / dose",
+     "quantite": 1,
+     "liste": "II"
+    },
+    {
+     "dci": "Epinéphrine",
+     "voie": "parentérale",
+     "forme": "seringue préremplie auto-injectable 0,3 mg / 0,3 ml",
+     "quantite": 2,
+     "liste": "I"
+    }
+   ]
+  },
+  {
+   "categorie": "2. Gastro-entérologie",
+   "articles": [
+    {
+     "dci": "Hydroxydes d'aluminium et de magnésium",
+     "voie": "orale",
+     "forme": "sachet suspension 460 mg, 400 mg",
+     "quantite": 20
+    },
+    {
+     "dci": "Diosmectite",
+     "voie": "orale",
+     "forme": "sachet 3 g",
+     "quantite": 30
+    },
+    {
+     "dci": "Carraghénates - Dioxyde de titane - Oxyde de zinc - Lidocaïne 2 %",
+     "voie": "rectale",
+     "forme": "crème - tube 20 g",
+     "quantite": 1
+    },
+    {
+     "dci": "Métopimazine",
+     "voie": "orale",
+     "forme": "lyophilisat oral 7,5 mg",
+     "quantite": 8,
+     "liste": "II"
+    },
+    {
+     "dci": "Racécadotril",
+     "voie": "orale",
+     "forme": "gélule 100 mg",
+     "quantite": 20,
+     "liste": "II"
+    }
+   ]
+  },
+  {
+   "categorie": "3. Antalgiques - Antipyrétiques - Antispasmodiques - Anti-inflammatoires",
+   "articles": [
+    {
+     "dci": "Paracétamol",
+     "voie": "sublinguale",
+     "forme": "lyophilisat oral 500 mg",
+     "quantite": 32
+    },
+    {
+     "dci": "Phloroglucinol",
+     "voie": "sublinguale",
+     "forme": "lyophilisat oral 80 mg",
+     "quantite": 10
+    },
+    {
+     "dci": "Kétoprofène",
+     "voie": "orale",
+     "forme": "comprimé 100 mg LP",
+     "quantite": 20,
+     "liste": "II"
+    },
+    {
+     "dci": "Tramadol",
+     "voie": "orale",
+     "forme": "comprimé orodispersible 50 mg",
+     "quantite": 10,
+     "liste": "I"
+    }
+   ]
+  },
+  {
+   "categorie": "4. Psychiatrie - Neurologie",
+   "articles": [
+    {
+     "dci": "Dimenhydrinate",
+     "voie": "orale",
+     "forme": "comprimé 50 mg",
+     "quantite": 15
+    },
+    {
+     "dci": "Diazépam",
+     "voie": "orale",
+     "forme": "comprimé 5 mg",
+     "quantite": 40,
+     "liste": "I"
+    }
+   ]
+  },
+  {
+   "categorie": "5. Allergologie",
+   "articles": [
+    {
+     "dci": "Desloratadine",
+     "voie": "orale",
+     "forme": "comprimé 5 mg",
+     "quantite": 14,
+     "liste": "II"
+    },
+    {
+     "dci": "Prednisolone",
+     "voie": "sublinguale",
+     "forme": "lyophilisat oral 20 mg",
+     "quantite": 20,
+     "liste": "I"
+    }
+   ]
+  },
+  {
+   "categorie": "6. Pneumologie",
+   "articles": [
+    {
+     "dci": "Salbutamol",
+     "voie": "inhalation",
+     "forme": "flacon pressurisé 100 µg / dose - 200 doses",
+     "quantite": 1,
+     "liste": "I"
+    }
+   ]
+  },
+  {
+   "categorie": "7. Maladies infectieuses",
+   "articles": [
+    {
+     "dci": "Amoxicilline - Acide clavulanique",
+     "voie": "orale",
+     "forme": "comprimé 500 mg / 62,5 mg",
+     "quantite": 16,
+     "liste": "I"
+    },
+    {
+     "dci": "Azithromycine",
+     "voie": "orale",
+     "forme": "comprimé 250 mg",
+     "quantite": 12,
+     "liste": "I"
+    }
+   ]
+  },
+  {
+   "categorie": "8. Dermatologie",
+   "articles": [
+    {
+     "dci": "Chlorhexidine",
+     "voie": "locale",
+     "forme": "solution aqueuse 0,2 % unidose 5 ml",
+     "quantite": 16
+    },
+    {
+     "dci": "Hexamidine - Chlorhexidine - Chlorocrésol",
+     "voie": "locale",
+     "forme": "solution moussante 10 mg, 0,5 mg, 300 mg / 100 ml - flacon 250 ml",
+     "quantite": 1
+    },
+    {
+     "dci": "Vaseline stérilisée",
+     "voie": "locale",
+     "forme": "pommade - tube 20 g",
+     "quantite": 1
+    }
+   ]
+  },
+  {
+   "categorie": "9. Ophtalmologie",
+   "articles": [
+    {
+     "dci": "Acide borique - Borate de sodium",
+     "voie": "oculaire",
+     "forme": "collyre 18 mg, 12 mg / ml unidose 10 ml",
+     "quantite": 16
+    },
+    {
+     "dci": "Rifamycine",
+     "voie": "oculaire",
+     "forme": "pommade ophtalmique 1 000 000 UI / 100 g - tube 5 g",
+     "quantite": 1,
+     "liste": "I"
+    }
+   ]
+  },
+  {
+   "categorie": "10. Oto-rhino-laryngologie et Stomatologie",
+   "articles": [
+    {
+     "dci": "Sérum physiologique",
+     "voie": "locale",
+     "forme": "NaCl 0,9 % - unidose 5 ml",
+     "quantite": 20
+    },
+    {
+     "dci": "Chlorhexidine - Chlorobutanol",
+     "voie": "bain de bouche",
+     "forme": "solution 0,5 ml, 0,5 g - flacon 100 ml",
+     "quantite": 1
+    }
+   ]
+  }
+ ],
+ "materiel": [
+  {
+   "categorie": "1. Matériel de réanimation",
+   "articles": [
+    {
+     "article": "Masque protecteur pour ventilation bouche-à-bouche (film plastique et valve unidirectionnelle)",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "type Ambu® LifeKey"
+    },
+    {
+     "article": "Canule oro-pharyngée taille 4 (adulte)",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "type Guedel®"
+    }
+   ]
+  },
+  {
+   "categorie": "2. Pansements et matériel de suture",
+   "articles": [
+    {
+     "article": "Compresse de gaze non stérile",
+     "presentation": "paquet de 100",
+     "quantite": 1
+    },
+    {
+     "article": "Compresse de gaze stérile",
+     "presentation": "paquet de 5",
+     "quantite": 4,
+     "remarques": "taille moyenne"
+    },
+    {
+     "article": "Pansement adhésif stérile étanche",
+     "presentation": "boîte",
+     "quantite": 1,
+     "remarques": "assortiment 3 tailles"
+    },
+    {
+     "article": "Pansement absorbant stérile (type américain) 15 cm x 20 cm",
+     "presentation": "unité",
+     "quantite": 2
+    },
+    {
+     "article": "Coussin hémostatique",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "type CHUT®"
+    },
+    {
+     "article": "Bande de crêpe (10 cm)",
+     "presentation": "rouleau 4 m",
+     "quantite": 1,
+     "remarques": "type Velpeau®"
+    },
+    {
+     "article": "Bande auto-adhésive (10 cm)",
+     "presentation": "rouleau 4 m",
+     "quantite": 1,
+     "remarques": "type Coheban®"
+    },
+    {
+     "article": "Bande de gaze tubulaire avec applicateur",
+     "presentation": "rouleau 5 m",
+     "quantite": 1,
+     "remarques": "pour pansement de doigt"
+    },
+    {
+     "article": "Sparadrap",
+     "presentation": "rouleau",
+     "quantite": 1
+    },
+    {
+     "article": "Tulle gras (10 cm x 10 cm)",
+     "presentation": "boîte de 10",
+     "quantite": 1
+    },
+    {
+     "article": "Compresses hydrogel 40 cm x 55 cm",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "type BurnAid®"
+    },
+    {
+     "article": "Compresses hydrogel 20 cm x 20 cm",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "type BurnAid®"
+    },
+    {
+     "article": "Sutures cutanées adhésives (6 mm x 75 mm)",
+     "presentation": "pochette de 3",
+     "quantite": 1
+    }
+   ]
+  },
+  {
+   "categorie": "3. Instruments",
+   "articles": [
+    {
+     "article": "Ciseaux universels",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "type Jesko®"
+    },
+    {
+     "article": "Pince hémostatique à griffes",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "type Halstead"
+    },
+    {
+     "article": "Set hémorragie (garrot tourniquet, pansement compressif, bande granulés hémostatiques)",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "set type 4BC®, bande type Chito-SAM®"
+    }
+   ]
+  },
+  {
+   "categorie": "4. Matériel d'examen et de surveillance médicale",
+   "articles": [
+    {
+     "article": "Thermomètre médical digital",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "à utilisation axillaire, buccale et rectale"
+    }
+   ]
+  },
+  {
+   "categorie": "5. Matériel médical général",
+   "articles": [
+    {
+     "article": "Gel antiseptique hydroalcoolique pour la peau saine",
+     "presentation": "flacon 100 ml",
+     "quantite": 1,
+     "remarques": "pour antisepsie des mains"
+    },
+    {
+     "article": "Couverture de survie",
+     "presentation": "unité",
+     "quantite": 2,
+     "remarques": "usage unique"
+    },
+    {
+     "article": "Gants d'examen non stériles",
+     "presentation": "boîte de 100",
+     "quantite": 1,
+     "remarques": "taille M et L"
+    },
+    {
+     "article": "Sac en plastique",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "petite dimension, pour conservation dans la glace de pièces anatomiques d'amputation"
+    }
+   ]
+  },
+  {
+   "categorie": "6. Matériel d'immobilisation et de contention",
+   "articles": [
+    {
+     "article": "Attelle aluminium malléable polyvalente",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "type SAM Splint, membre supérieur et membre inférieur"
+    }
+   ]
+  },
+  {
+   "categorie": "7. Documentation",
+   "articles": [
+    {
+     "article": "Registre de la dotation médicale",
+     "presentation": "unité",
+     "quantite": 1
+    },
+    {
+     "article": "Bon de commande pré-imprimé",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "pour la dotation du navire"
+    },
+    {
+     "article": "Guide des spécialités pharmaceutiques",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "fiches des produits"
+    },
+    {
+     "article": "Fiche d'observation médicale",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "pour téléconsultation"
+    }
+   ]
+  }
+ ]
+}

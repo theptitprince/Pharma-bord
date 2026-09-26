@@ -1,0 +1,214 @@
+{
+ "format": "pharma-bord/referentiel/1",
+ "code": "CR",
+ "titre": "Dotation C restreinte",
+ "conditions_emploi": "Navires ne s'éloignant pas à plus de 20 milles des côtes et restant moins de 24 heures à la mer.",
+ "source": "Division 217 (arrêté du 23 novembre 1987 modifié), annexes 217-3.A.1 à A.4, rédaction issue de l'arrêté du 30 septembre 2021 (JORF 16/10/2021), en vigueur depuis le 17/10/2021. Vérifié conforme à la version en vigueur sur Légifrance le 24/09/2026 (aucune modification depuis le 17/10/2021).",
+ "medicaments": [
+  {
+   "categorie": "1. Cardiologie",
+   "articles": [
+    {
+     "dci": "Acétylsalicylate de lysine",
+     "voie": "orale",
+     "forme": "sachet 300 mg",
+     "quantite": 20
+    },
+    {
+     "dci": "Trinitrine",
+     "voie": "sublinguale",
+     "forme": "flacon pulvérisation 0,15 mg / dose",
+     "quantite": 1,
+     "liste": "II"
+    }
+   ]
+  },
+  {
+   "categorie": "2. Gastro-entérologie",
+   "articles": [
+    {
+     "dci": "Lopéramide",
+     "voie": "orale",
+     "forme": "lyophilisat oral 2 mg",
+     "quantite": 10
+    }
+   ]
+  },
+  {
+   "categorie": "3. Antalgiques - Antipyrétiques",
+   "articles": [
+    {
+     "dci": "Paracétamol",
+     "voie": "sublinguale",
+     "forme": "lyophilisat oral 500 mg",
+     "quantite": 16
+    },
+    {
+     "dci": "Tramadol",
+     "voie": "orale",
+     "forme": "comprimé orodispersible 50 mg",
+     "quantite": 10,
+     "liste": "I"
+    }
+   ]
+  },
+  {
+   "categorie": "4. Dermatologie",
+   "articles": [
+    {
+     "dci": "Chlorhexidine",
+     "voie": "locale",
+     "forme": "solution aqueuse 0,2 % unidose 5 ml",
+     "quantite": 16
+    },
+    {
+     "dci": "Vaseline stérilisée",
+     "voie": "locale",
+     "forme": "pommade - tube 20 g",
+     "quantite": 1
+    }
+   ]
+  },
+  {
+   "categorie": "5. Ophtalmologie",
+   "articles": [
+    {
+     "dci": "Acide borique - Borate de sodium",
+     "voie": "oculaire",
+     "forme": "collyre 18 mg, 12 mg / ml unidose 10 ml",
+     "quantite": 16
+    }
+   ]
+  }
+ ],
+ "materiel": [
+  {
+   "categorie": "1. Matériel de réanimation",
+   "articles": [
+    {
+     "article": "Masque protecteur pour ventilation bouche-à-bouche (film plastique et valve unidirectionnelle)",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "type Ambu® LifeKey"
+    },
+    {
+     "article": "Canule oro-pharyngée taille 4 (adulte)",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "type Guedel®"
+    }
+   ]
+  },
+  {
+   "categorie": "2. Pansements et matériel de suture",
+   "articles": [
+    {
+     "article": "Bande de crêpe (10 cm)",
+     "presentation": "rouleau 4 m",
+     "quantite": 1,
+     "remarques": "type Velpeau®"
+    },
+    {
+     "article": "Bande auto-adhésive (10 cm)",
+     "presentation": "rouleau 4 m",
+     "quantite": 1,
+     "remarques": "type Coheban®"
+    },
+    {
+     "article": "Compresse de gaze stérile",
+     "presentation": "paquet de 5",
+     "quantite": 4,
+     "remarques": "taille moyenne"
+    },
+    {
+     "article": "Pansement adhésif stérile étanche",
+     "presentation": "boîte",
+     "quantite": 2,
+     "remarques": "assortiment 3 tailles"
+    },
+    {
+     "article": "Pansement absorbant stérile (type américain) 15 cm x 20 cm",
+     "presentation": "unité",
+     "quantite": 2
+    },
+    {
+     "article": "Coussin hémostatique",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "type CHUT®"
+    },
+    {
+     "article": "Sparadrap",
+     "presentation": "rouleau",
+     "quantite": 1
+    },
+    {
+     "article": "Sutures cutanées adhésives (6 mm x 75 mm)",
+     "presentation": "pochette de 3",
+     "quantite": 1
+    },
+    {
+     "article": "Gants d'examen non stériles",
+     "presentation": "boîte de 100",
+     "quantite": 1,
+     "remarques": "taille M et L"
+    },
+    {
+     "article": "Gel antiseptique hydroalcoolique pour la peau saine",
+     "presentation": "flacon 75 ml",
+     "quantite": 1
+    }
+   ]
+  },
+  {
+   "categorie": "3. Instruments",
+   "articles": [
+    {
+     "article": "Ciseaux universels",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "type Jesko®"
+    }
+   ]
+  },
+  {
+   "categorie": "4. Matériel médical général",
+   "articles": [
+    {
+     "article": "Couverture de survie",
+     "presentation": "unité",
+     "quantite": 2,
+     "remarques": "usage unique"
+    }
+   ]
+  },
+  {
+   "categorie": "5. Documentation",
+   "articles": [
+    {
+     "article": "Bon de commande pré-imprimé",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "pour la dotation du navire"
+    },
+    {
+     "article": "Registre de la dotation médicale",
+     "presentation": "unité",
+     "quantite": 1
+    },
+    {
+     "article": "Guide des spécialités pharmaceutiques",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "fiches des produits"
+    },
+    {
+     "article": "Fiche d'observation médicale",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "pour téléconsultation"
+    }
+   ]
+  }
+ ]
+}

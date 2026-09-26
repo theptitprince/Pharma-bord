@@ -1,0 +1,49 @@
+{
+ "format": "pharma-bord/referentiel/1",
+ "code": "PLONGEE",
+ "titre": "Trousse de secours plongée",
+ "conditions_emploi": "Navires ayant des plongeurs professionnels à bord.",
+ "source": "Division 217 (arrêté du 23 novembre 1987 modifié), annexes 217-3.A.1 à A.4, rédaction issue de l'arrêté du 30 septembre 2021 (JORF 16/10/2021), en vigueur depuis le 17/10/2021. Vérifié conforme à la version en vigueur sur Légifrance le 24/09/2026 (aucune modification depuis le 17/10/2021).",
+ "medicaments": [],
+ "materiel": [
+  {
+   "categorie": "1. Trousse de secours plongée",
+   "articles": [
+    {
+     "article": "Oxygène médical",
+     "presentation": "bouteille 200 bars de capacité suffisante (ex. 2 l à 200 bars = 25 min à 15 l/min)",
+     "quantite": 1,
+     "remarques": "bouteille munie d'un robinet avec manodétenteur-débitmètre de 0 à 15 l/min et prises normalisées"
+    },
+    {
+     "article": "Insufflateur manuel avec réservoir à oxygène",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "ballon auto-remplisseur à valve unidirectionnelle type Ambu®"
+    },
+    {
+     "article": "Masque facial pour insufflateur manuel, taille 5 (adulte)",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "usage unique"
+    },
+    {
+     "article": "Masque à oxygène à haute concentration (adulte) avec tubulure",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "usage unique"
+    },
+    {
+     "article": "Bouteille d'eau plate d'un litre",
+     "presentation": "unité",
+     "quantite": 1
+    },
+    {
+     "article": "Plan de secours",
+     "presentation": "unité",
+     "quantite": 1
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1583 @@
+{
+ "format": "pharma-bord/referentiel/1",
+ "code": "A",
+ "titre": "Dotation A",
+ "conditions_emploi": "Navires pratiquant la navigation sans limitation de durée ni de destination (quantités fixées pour 25 marins).",
+ "source": "Division 217 (arrêté du 23 novembre 1987 modifié), annexes 217-3.A.1 à A.4, rédaction issue de l'arrêté du 30 septembre 2021 (JORF 16/10/2021), en vigueur depuis le 17/10/2021. Vérifié conforme à la version en vigueur sur Légifrance le 24/09/2026 (aucune modification depuis le 17/10/2021).",
+ "medicaments": [
+  {
+   "categorie": "1. Cardiologie",
+   "articles": [
+    {
+     "dci": "Acide acétylsalicylique",
+     "voie": "orale",
+     "forme": "sachet 300 mg",
+     "quantite": 20
+    },
+    {
+     "dci": "Atropine",
+     "voie": "parentérale",
+     "forme": "ampoule 0,5 mg / 1 ml",
+     "quantite": 10,
+     "liste": "I"
+    },
+    {
+     "dci": "Epinéphrine",
+     "voie": "parentérale",
+     "forme": "ampoule 1 mg / 1 ml",
+     "quantite": 10,
+     "liste": "I"
+    },
+    {
+     "dci": "Furosémide",
+     "voie": "parentérale",
+     "forme": "ampoule 20 mg / 2 ml",
+     "quantite": 10,
+     "liste": "II"
+    },
+    {
+     "dci": "Trinitrine",
+     "voie": "sublinguale",
+     "forme": "flacon pulvérisation 0,15 mg / dose",
+     "quantite": 2,
+     "liste": "II"
+    },
+    {
+     "dci": "Isosorbide dinitrate",
+     "voie": "orale",
+     "forme": "comprimé 20 mg",
+     "quantite": 60,
+     "liste": "II"
+    },
+    {
+     "dci": "Nitrendipine",
+     "voie": "orale",
+     "forme": "comprimé 10 mg",
+     "quantite": 28,
+     "liste": "I"
+    },
+    {
+     "dci": "Aténolol",
+     "voie": "orale",
+     "forme": "comprimé 50 mg",
+     "quantite": 28,
+     "liste": "I"
+    },
+    {
+     "dci": "Ticagrelor",
+     "voie": "orale",
+     "forme": "comprimé 90 mg",
+     "quantite": 60,
+     "liste": "I"
+    },
+    {
+     "dci": "Amiodarone",
+     "voie": "orale",
+     "forme": "comprimé 200 mg",
+     "quantite": 30,
+     "liste": "I"
+    },
+    {
+     "dci": "Amiodarone",
+     "voie": "parentérale",
+     "forme": "ampoule 150 mg / 3 ml",
+     "quantite": 3,
+     "liste": "I"
+    },
+    {
+     "dci": "Enoxaparine sodique",
+     "voie": "sous-cutanée",
+     "forme": "seringue préremplie 10 000 UI antiXa / 1 ml",
+     "quantite": 10,
+     "liste": "I"
+    }
+   ]
+  },
+  {
+   "categorie": "2. Gastro-entérologie",
+   "articles": [
+    {
+     "dci": "Hydroxydes d'aluminium et de magnésium",
+     "voie": "orale",
+     "forme": "sachet suspension 460 mg, 400 mg",
+     "quantite": 120
+    },
+    {
+     "dci": "Diosmectite",
+     "voie": "orale",
+     "forme": "sachet 3 g",
+     "quantite": 60
+    },
+    {
+     "dci": "Macrogol 4000",
+     "voie": "orale",
+     "forme": "sachet 4 g",
+     "quantite": 40
+    },
+    {
+     "dci": "Carraghénates - Dioxyde de titane - Oxyde de zinc",
+     "voie": "rectale",
+     "forme": "suppositoire",
+     "quantite": 24
+    },
+    {
+     "dci": "Carraghénates - Dioxyde de titane - Oxyde de zinc - Lidocaïne 2 %",
+     "voie": "rectale",
+     "forme": "crème - tube 20 g",
+     "quantite": 2
+    },
+    {
+     "dci": "Lavement hydrogénophosphates",
+     "voie": "rectale",
+     "forme": "unidose 130 ml",
+     "quantite": 4
+    },
+    {
+     "dci": "Métopimazine",
+     "voie": "orale",
+     "forme": "lyophilisat oral 7,5 mg",
+     "quantite": 16,
+     "liste": "II"
+    },
+    {
+     "dci": "Racécadotril",
+     "voie": "orale",
+     "forme": "gélule 100 mg",
+     "quantite": 60,
+     "liste": "II"
+    },
+    {
+     "dci": "Oméprazole",
+     "voie": "orale",
+     "forme": "comprimé 20 mg",
+     "quantite": 28,
+     "liste": "II"
+    },
+    {
+     "dci": "Ondansétron",
+     "voie": "parentérale",
+     "forme": "ampoule 4 mg / 2 ml",
+     "quantite": 4,
+     "liste": "I"
+    }
+   ]
+  },
+  {
+   "categorie": "3. Antalgiques - Antipyrétiques - Antispasmodiques - Anti-inflammatoires",
+   "articles": [
+    {
+     "dci": "Paracétamol",
+     "voie": "sublinguale",
+     "forme": "lyophilisat oral 500 mg",
+     "quantite": 32
+    },
+    {
+     "dci": "Paracétamol",
+     "voie": "orale",
+     "forme": "gélule 500 mg",
+     "quantite": 100
+    },
+    {
+     "dci": "Phloroglucinol",
+     "voie": "sublinguale",
+     "forme": "lyophilisat oral 80 mg",
+     "quantite": 30
+    },
+    {
+     "dci": "Colchicine",
+     "voie": "orale",
+     "forme": "comprimé 1 mg",
+     "quantite": 40,
+     "liste": "I"
+    },
+    {
+     "dci": "Kétoprofène",
+     "voie": "orale",
+     "forme": "comprimé 100 mg LP",
+     "quantite": 60,
+     "liste": "II"
+    },
+    {
+     "dci": "Kétoprofène",
+     "voie": "parentérale (intramusculaire)",
+     "forme": "ampoule 100 mg / 2 ml",
+     "quantite": 2,
+     "liste": "II"
+    },
+    {
+     "dci": "Tramadol",
+     "voie": "orale",
+     "forme": "comprimé orodispersible 50 mg",
+     "quantite": 60,
+     "liste": "I"
+    },
+    {
+     "dci": "Morphine chlorhydrate",
+     "voie": "parentérale",
+     "forme": "ampoule 10 mg / 1 ml",
+     "quantite": 10,
+     "liste": "Stupéfiant"
+    },
+    {
+     "dci": "Naloxone",
+     "voie": "parentérale",
+     "forme": "ampoule 0,4 mg / 1 ml",
+     "quantite": 10,
+     "liste": "I"
+    }
+   ]
+  },
+  {
+   "categorie": "4. Psychiatrie - Neurologie",
+   "articles": [
+    {
+     "dci": "Dimenhydrinate",
+     "voie": "orale",
+     "forme": "comprimé 50 mg",
+     "quantite": 30
+    },
+    {
+     "dci": "Hydroxyzine",
+     "voie": "orale",
+     "forme": "comprimé 25 mg",
+     "quantite": 30,
+     "liste": "I"
+    },
+    {
+     "dci": "Zopiclone",
+     "voie": "orale",
+     "forme": "comprimé 7,5 mg",
+     "quantite": 42,
+     "liste": "I"
+    },
+    {
+     "dci": "Escitalopram",
+     "voie": "orale",
+     "forme": "comprimé 5 mg",
+     "quantite": 28,
+     "liste": "I"
+    },
+    {
+     "dci": "Diazépam",
+     "voie": "orale",
+     "forme": "comprimé 5 mg",
+     "quantite": 40,
+     "liste": "I"
+    },
+    {
+     "dci": "Diazépam",
+     "voie": "parentérale",
+     "forme": "ampoule 10 mg / 2 ml",
+     "quantite": 6,
+     "liste": "I"
+    },
+    {
+     "dci": "Loxapine",
+     "voie": "parentérale",
+     "forme": "ampoule 50 mg / 2 ml",
+     "quantite": 10,
+     "liste": "I"
+    }
+   ]
+  },
+  {
+   "categorie": "5. Allergologie",
+   "articles": [
+    {
+     "dci": "Desloratadine",
+     "voie": "orale",
+     "forme": "comprimé 5 mg",
+     "quantite": 14,
+     "liste": "II"
+    },
+    {
+     "dci": "Prednisolone",
+     "voie": "sublinguale",
+     "forme": "lyophilisat oral 20 mg",
+     "quantite": 40,
+     "liste": "I"
+    },
+    {
+     "dci": "Méthylprednisolone",
+     "voie": "parentérale",
+     "forme": "ampoule 40 mg / 2 ml",
+     "quantite": 5,
+     "liste": "I"
+    }
+   ]
+  },
+  {
+   "categorie": "6. Pneumologie",
+   "articles": [
+    {
+     "dci": "Acétylcystéine",
+     "voie": "orale",
+     "forme": "sachet 200 mg",
+     "quantite": 20
+    },
+    {
+     "dci": "Salbutamol",
+     "voie": "inhalation",
+     "forme": "flacon pressurisé 100 µg / dose - 200 doses",
+     "quantite": 2,
+     "liste": "I"
+    },
+    {
+     "dci": "Terbutaline",
+     "voie": "parentérale",
+     "forme": "ampoule 0,5 mg / 1 ml",
+     "quantite": 8,
+     "liste": "I"
+    },
+    {
+     "dci": "Terbutaline",
+     "voie": "nébulisation",
+     "forme": "solution inhalation unidose 5 mg / 2 ml",
+     "quantite": 20,
+     "liste": "I"
+    },
+    {
+     "dci": "Ipratropium bromure",
+     "voie": "nébulisation",
+     "forme": "solution inhalation unidose 0,5 mg / 2 ml",
+     "quantite": 20,
+     "liste": "I"
+    }
+   ]
+  },
+  {
+   "categorie": "7. Maladies infectieuses",
+   "articles": [
+    {
+     "dci": "Amoxicilline",
+     "voie": "orale",
+     "forme": "gélule 500 mg",
+     "quantite": 48,
+     "liste": "I"
+    },
+    {
+     "dci": "Amoxicilline - Acide clavulanique",
+     "voie": "orale",
+     "forme": "comprimé 500 mg / 62,5 mg",
+     "quantite": 96,
+     "liste": "I"
+    },
+    {
+     "dci": "Azithromycine",
+     "voie": "orale",
+     "forme": "comprimé 250 mg",
+     "quantite": 12,
+     "liste": "I"
+    },
+    {
+     "dci": "Ceftriaxone",
+     "voie": "parentérale (intramusculaire)",
+     "forme": "ampoule 1 g / 3,5 ml",
+     "quantite": 6,
+     "liste": "I"
+    },
+    {
+     "dci": "Gentamicine",
+     "voie": "parentérale",
+     "forme": "ampoule 160 mg / 2 ml",
+     "quantite": 4,
+     "liste": "I"
+    },
+    {
+     "dci": "Lévofloxacine",
+     "voie": "orale",
+     "forme": "comprimé 500 mg",
+     "quantite": 20,
+     "liste": "I"
+    },
+    {
+     "dci": "Métronidazole",
+     "voie": "orale",
+     "forme": "comprimé 500 mg",
+     "quantite": 20,
+     "liste": "I"
+    },
+    {
+     "dci": "Valaciclovir",
+     "voie": "orale",
+     "forme": "comprimé 500 mg",
+     "quantite": 42,
+     "liste": "I"
+    },
+    {
+     "dci": "Albendazole",
+     "voie": "orale",
+     "forme": "comprimé 400 mg",
+     "quantite": 4,
+     "liste": "I"
+    },
+    {
+     "dci": "Ivermectine",
+     "voie": "orale",
+     "forme": "comprimé 3 mg",
+     "quantite": 24,
+     "liste": "II"
+    },
+    {
+     "dci": "Oseltamivir",
+     "voie": "orale",
+     "forme": "gélule 75 mg",
+     "quantite": 60,
+     "liste": "I"
+    },
+    {
+     "dci": "Vaccin Diphtérie-Tétanos-Poliomyélite (inactivé adsorbé)",
+     "voie": "parentérale",
+     "forme": "seringue préremplie 0,5 ml",
+     "quantite": 2
+    }
+   ]
+  },
+  {
+   "categorie": "8. Gynécologie",
+   "articles": [
+    {
+     "dci": "Econazole",
+     "voie": "vaginale",
+     "forme": "ovule 150 mg LP",
+     "quantite": 2
+    },
+    {
+     "dci": "Misoprostol",
+     "voie": "orale",
+     "forme": "comprimé 200 µg",
+     "quantite": 8,
+     "liste": "I"
+    },
+    {
+     "dci": "Acide tranexamique",
+     "voie": "orale",
+     "forme": "ampoule buvable 1 g / 10 ml",
+     "quantite": 10,
+     "liste": "I"
+    }
+   ]
+  },
+  {
+   "categorie": "9. Réanimation",
+   "articles": [
+    {
+     "dci": "Soluté de réhydratation orale",
+     "voie": "orale",
+     "forme": "sachet 7 g",
+     "quantite": 40
+    },
+    {
+     "dci": "Chlorure de sodium",
+     "voie": "parentérale",
+     "forme": "solution pour perfusion 0,9 % 500 ml",
+     "quantite": 12
+    },
+    {
+     "dci": "Bicarbonate de sodium",
+     "voie": "parentérale",
+     "forme": "solution pour perfusion 1,4 % 500 ml",
+     "quantite": 1
+    },
+    {
+     "dci": "Glucose",
+     "voie": "parentérale",
+     "forme": "solution pour perfusion 5 % 500 ml",
+     "quantite": 3
+    },
+    {
+     "dci": "Glucose hypertonique",
+     "voie": "parentérale",
+     "forme": "ampoule 30 % - 10 ml",
+     "quantite": 4
+    },
+    {
+     "dci": "Chlorure de potassium",
+     "voie": "orale",
+     "forme": "comprimé 600 mg",
+     "quantite": 30
+    },
+    {
+     "dci": "Eau pour préparation injectable",
+     "voie": "parentérale",
+     "forme": "ampoule 20 ml",
+     "quantite": 10
+    }
+   ]
+  },
+  {
+   "categorie": "10. Dermatologie",
+   "articles": [
+    {
+     "dci": "Chlorhexidine",
+     "voie": "locale",
+     "forme": "solution aqueuse 0,2 % unidose 5 ml",
+     "quantite": 48
+    },
+    {
+     "dci": "Chlorhexidine",
+     "voie": "locale",
+     "forme": "solution alcoolisée 0,5 % flacon 125 ml",
+     "quantite": 2
+    },
+    {
+     "dci": "Hexamidine - Chlorhexidine - Chlorocrésol",
+     "voie": "locale",
+     "forme": "solution moussante 10 mg, 0,5 mg, 300 mg / 100 ml - flacon 250 ml",
+     "quantite": 2
+    },
+    {
+     "dci": "Vaseline stérilisée",
+     "voie": "locale",
+     "forme": "pommade - tube 20 g",
+     "quantite": 10
+    },
+    {
+     "dci": "Sulfadiazine argentique",
+     "voie": "locale",
+     "forme": "crème - tube 50 g",
+     "quantite": 4
+    },
+    {
+     "dci": "Econazole",
+     "voie": "locale",
+     "forme": "crème - tube 30 g",
+     "quantite": 3
+    },
+    {
+     "dci": "Ecran solaire",
+     "voie": "locale",
+     "forme": "crème IP ≥ 30 - tube",
+     "quantite": 4
+    },
+    {
+     "dci": "d-Phénothrine",
+     "voie": "locale",
+     "forme": "shampooing - flacon 150 ml",
+     "quantite": 2
+    },
+    {
+     "dci": "Benzoate de benzyle",
+     "voie": "locale",
+     "forme": "émulsion 10 % - flacon 125 ml",
+     "quantite": 4
+    },
+    {
+     "dci": "Mupirocine",
+     "voie": "locale",
+     "forme": "pommade 2 % - tube 15 g",
+     "quantite": 3,
+     "liste": "I"
+    },
+    {
+     "dci": "Bétaméthasone",
+     "voie": "locale",
+     "forme": "crème 0,1 % - tube 15 g",
+     "quantite": 2,
+     "liste": "I"
+    }
+   ]
+  },
+  {
+   "categorie": "11. Ophtalmologie",
+   "articles": [
+    {
+     "dci": "Acide borique - Borate de sodium",
+     "voie": "oculaire",
+     "forme": "collyre 18 mg, 12 mg / ml unidose 10 ml",
+     "quantite": 24
+    },
+    {
+     "dci": "Hexamidine",
+     "voie": "oculaire",
+     "forme": "collyre 0,1 % - flacon 0,6 ml",
+     "quantite": 20
+    },
+    {
+     "dci": "Dexaméthasone - Oxytétracycline",
+     "voie": "oculaire",
+     "forme": "pommade ophtalmique 0,267 mg, 1,335 mg unidose",
+     "quantite": 24,
+     "liste": "I"
+    },
+    {
+     "dci": "Rifamycine",
+     "voie": "oculaire",
+     "forme": "pommade ophtalmique 1 000 000 UI / 100 g - tube 5 g",
+     "quantite": 2,
+     "liste": "I"
+    },
+    {
+     "dci": "Ciprofloxacine",
+     "voie": "oculaire",
+     "forme": "collyre 0,3 % - flacon 5 ml",
+     "quantite": 2,
+     "liste": "I"
+    },
+    {
+     "dci": "Indométacine",
+     "voie": "oculaire",
+     "forme": "collyre 0,1 % - unidose 0,35 ml",
+     "quantite": 20,
+     "liste": "I"
+    },
+    {
+     "dci": "Aciclovir",
+     "voie": "oculaire",
+     "forme": "pommade 3 % - tube 4,5 g",
+     "quantite": 1,
+     "liste": "I"
+    },
+    {
+     "dci": "Atropine",
+     "voie": "oculaire",
+     "forme": "collyre 0,5 % - flacon 10 ml",
+     "quantite": 1,
+     "liste": "I"
+    },
+    {
+     "dci": "Pilocarpine",
+     "voie": "oculaire",
+     "forme": "collyre 2 % - flacon 10 ml",
+     "quantite": 1
+    },
+    {
+     "dci": "Oxybuprocaïne chlorhydrate",
+     "voie": "oculaire",
+     "forme": "collyre 1,6 mg / 0,4 ml unidose",
+     "quantite": 20,
+     "liste": "I"
+    },
+    {
+     "dci": "Fluorescéine",
+     "voie": "oculaire",
+     "forme": "collyre 0,5 % - unidose 0,4 ml",
+     "quantite": 5
+    },
+    {
+     "dci": "Acétazolamide",
+     "voie": "orale",
+     "forme": "comprimé 250 mg",
+     "quantite": 24,
+     "liste": "I"
+    }
+   ]
+  },
+  {
+   "categorie": "12. Oto-rhino-laryngologie et Stomatologie",
+   "articles": [
+    {
+     "dci": "Sérum physiologique",
+     "voie": "locale",
+     "forme": "NaCl 0,9 % - unidose 5 ml",
+     "quantite": 20
+    },
+    {
+     "dci": "Xylène",
+     "voie": "locale",
+     "forme": "solution auriculaire 500 mg / 10 ml",
+     "quantite": 1
+    },
+    {
+     "dci": "Phénazone - Lidocaïne",
+     "voie": "locale",
+     "forme": "solution auriculaire 16 g / 15 ml",
+     "quantite": 1
+    },
+    {
+     "dci": "Ofloxacine",
+     "voie": "locale",
+     "forme": "solution auriculaire 1,5 mg - unidose 0,5 ml",
+     "quantite": 20,
+     "liste": "I"
+    },
+    {
+     "dci": "Chlorhexidine - Chlorobutanol",
+     "voie": "bain de bouche",
+     "forme": "solution 0,5 ml, 0,5 g - flacon 100 ml",
+     "quantite": 12
+    },
+    {
+     "dci": "Amyléine chlorhydrate - Lévomenthol",
+     "voie": "dentaire",
+     "forme": "solution gingivale 0,80 g, 0,80 mg - flacon 4 ml",
+     "quantite": 2
+    }
+   ]
+  },
+  {
+   "categorie": "13. Anesthésiques locaux",
+   "articles": [
+    {
+     "dci": "Lidocaïne",
+     "voie": "locale",
+     "forme": "solution injectable 1 % - flacon 20 ml",
+     "quantite": 5,
+     "liste": "II"
+    },
+    {
+     "dci": "Lidocaïne - Prilocaïne",
+     "voie": "locale",
+     "forme": "patch - pansement adhésif cutané 5 %",
+     "quantite": 2,
+     "liste": "II"
+    }
+   ]
+  },
+  {
+   "categorie": "14. Prévention et traitement du paludisme",
+   "conditions": [
+    "paludisme"
+   ],
+   "articles": [
+    {
+     "dci": "Test de détection rapide de Plasmodium (HRP2 et Pan-LDH)",
+     "voie": "-",
+     "forme": "kit de 25 tests",
+     "quantite": 1
+    },
+    {
+     "dci": "Pipéraquine - Arténimol",
+     "voie": "orale",
+     "forme": "comprimé 320 mg, 40 mg",
+     "quantite": 12,
+     "liste": "I"
+    },
+    {
+     "dci": "Quinine",
+     "voie": "parentérale",
+     "forme": "ampoule 250 mg / 2 ml",
+     "quantite": 12,
+     "liste": "I"
+    },
+    {
+     "dci": "Atovaquone - Proguanil",
+     "voie": "orale",
+     "forme": "comprimé 250 mg, 100 mg",
+     "quantite": 12,
+     "liste": "I"
+    }
+   ]
+  },
+  {
+   "categorie": "15. Accidents d'exposition au sang",
+   "conditions": [
+    "aes"
+   ],
+   "articles": [
+    {
+     "dci": "Lamivudine - Zidovudine",
+     "voie": "orale",
+     "forme": "comprimé 150 mg, 300 mg",
+     "quantite": 6,
+     "liste": "I"
+    },
+    {
+     "dci": "Lopinavir - Ritonavir",
+     "voie": "orale",
+     "forme": "comprimé 200 mg, 50 mg",
+     "quantite": 12
+    }
+   ]
+  }
+ ],
+ "materiel": [
+  {
+   "categorie": "1. Matériel de réanimation",
+   "articles": [
+    {
+     "article": "Défibrillateur automatisé externe",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "avec 2 sets d'électrodes et 1 tapis isolant"
+    },
+    {
+     "article": "Oxygène médical",
+     "presentation": "bouteille de 5 l 200 bars",
+     "quantite": 2,
+     "remarques": "bouteille munie d'un robinet avec manodétenteur-débitmètre de 0 à 15 l/min et prises normalisées"
+    },
+    {
+     "article": "Insufflateur manuel avec réservoir à oxygène",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "ballon auto-remplisseur à valve unidirectionnelle type Ambu®",
+     "conditions": [
+      "sac"
+     ]
+    },
+    {
+     "article": "Masque facial pour insufflateur manuel, taille 5 (adulte)",
+     "presentation": "unité",
+     "quantite": 2,
+     "remarques": "usage unique",
+     "conditions": [
+      "sac"
+     ]
+    },
+    {
+     "article": "Canule oro-pharyngée taille 4 (adulte)",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "type Guedel®",
+     "conditions": [
+      "sac"
+     ]
+    },
+    {
+     "article": "Aspirateur de mucosités (à pied, à main ou automatique) avec tuyau d'aspiration",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "type Ambu® Twin Pump",
+     "conditions": [
+      "sac"
+     ]
+    },
+    {
+     "article": "Sonde d'aspiration buccale",
+     "presentation": "unité",
+     "quantite": 2,
+     "remarques": "CH 26",
+     "conditions": [
+      "sac"
+     ]
+    },
+    {
+     "article": "Masque à oxygène à haute concentration (adulte) avec tubulure",
+     "presentation": "unité",
+     "quantite": 2,
+     "remarques": "usage unique",
+     "conditions": [
+      "sac"
+     ]
+    },
+    {
+     "article": "Masque aérosol pour nébulisation de médicaments (adulte) avec tubulure",
+     "presentation": "unité",
+     "quantite": 2,
+     "remarques": "usage unique"
+    }
+   ]
+  },
+  {
+   "categorie": "2. Pansements et matériel de suture",
+   "articles": [
+    {
+     "article": "Set à pansement stérile (ciseaux droits, champ stérile non troué, pince Kocher, pince anatomique à mors fins, pince à disséquer à griffes, compresses stériles)",
+     "presentation": "set stérile",
+     "quantite": 5,
+     "remarques": "usage unique"
+    },
+    {
+     "article": "Compresse de gaze non stérile",
+     "presentation": "paquet de 100",
+     "quantite": 2
+    },
+    {
+     "article": "Compresse de gaze stérile",
+     "presentation": "paquet de 5",
+     "quantite": 20,
+     "remarques": "taille moyenne"
+    },
+    {
+     "article": "Pansement adhésif stérile étanche",
+     "presentation": "boîte",
+     "quantite": 5,
+     "remarques": "assortiment 3 tailles"
+    },
+    {
+     "article": "Pansement absorbant stérile (type américain) 15 cm x 20 cm",
+     "presentation": "unité",
+     "quantite": 20
+    },
+    {
+     "article": "Coton hydrophile",
+     "presentation": "paquet 100 g",
+     "quantite": 2
+    },
+    {
+     "article": "Bande de crêpe (10 cm)",
+     "presentation": "rouleau 4 m",
+     "quantite": 4,
+     "remarques": "type Velpeau®"
+    },
+    {
+     "article": "Bande auto-adhésive (10 cm)",
+     "presentation": "rouleau 4 m",
+     "quantite": 4,
+     "remarques": "type Coheban®"
+    },
+    {
+     "article": "Bande de gaze tubulaire avec applicateur",
+     "presentation": "rouleau 5 m",
+     "quantite": 1,
+     "remarques": "pour pansement de doigt"
+    },
+    {
+     "article": "Epingle de sûreté",
+     "presentation": "sachet de 12",
+     "quantite": 2
+    },
+    {
+     "article": "Sparadrap",
+     "presentation": "rouleau",
+     "quantite": 5
+    },
+    {
+     "article": "Mèche de gaze stérile (2 cm x 5 m)",
+     "presentation": "flacon stérile",
+     "quantite": 2
+    },
+    {
+     "article": "Tulle gras (10 cm x 10 cm)",
+     "presentation": "boîte de 10",
+     "quantite": 2
+    },
+    {
+     "article": "Compresses hydrogel 40 cm x 55 cm",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "type BurnAid®"
+    },
+    {
+     "article": "Compresses hydrogel 20 cm x 20 cm",
+     "presentation": "unité",
+     "quantite": 2,
+     "remarques": "type BurnAid®"
+    },
+    {
+     "article": "Drap stérile pour brûlé",
+     "presentation": "unité",
+     "quantite": 2,
+     "remarques": "taille 0,7 x 2,5 m (type Métalline®)"
+    },
+    {
+     "article": "Sutures cutanées adhésives (6 mm x 75 mm)",
+     "presentation": "pochette de 3",
+     "quantite": 10
+    },
+    {
+     "article": "Agrafeuse à peau",
+     "presentation": "unité",
+     "quantite": 2,
+     "remarques": "type Precise 3M® - usage unique"
+    },
+    {
+     "article": "Ote-agrafe",
+     "presentation": "unité",
+     "quantite": 2,
+     "remarques": "type 3M® - usage unique"
+    },
+    {
+     "article": "Set à suture stérile (porte-aiguille, ciseau 10 cm, pince à griffe, 5 compresses 5 x 5 cm, champ troué, champ non troué)",
+     "presentation": "unité",
+     "quantite": 5,
+     "remarques": "usage unique"
+    },
+    {
+     "article": "Aiguille sertie courbe à fil synthétique n° 4/0 - 1,5 Déc/Met",
+     "presentation": "unité",
+     "quantite": 2,
+     "remarques": "non résorbable"
+    },
+    {
+     "article": "Aiguille sertie courbe à fil synthétique n° 3/0 - 2 Déc/Met",
+     "presentation": "unité",
+     "quantite": 2,
+     "remarques": "non résorbable"
+    }
+   ]
+  },
+  {
+   "categorie": "3. Instruments",
+   "articles": [
+    {
+     "article": "Ciseaux universels",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "type Jesko®"
+    },
+    {
+     "article": "Rasoir",
+     "presentation": "unité",
+     "quantite": 10,
+     "remarques": "usage unique"
+    },
+    {
+     "article": "Lancette ophtalmique en éponge triangulaire",
+     "presentation": "unité",
+     "quantite": 10,
+     "remarques": "pour ablation de corps étranger cornéen - usage unique"
+    },
+    {
+     "article": "Bistouri lame n° 11",
+     "presentation": "unité",
+     "quantite": 4,
+     "remarques": "usage unique"
+    },
+    {
+     "article": "Bistouri lame n° 15",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "usage unique"
+    },
+    {
+     "article": "Pince hémostatique à griffes",
+     "presentation": "unité",
+     "quantite": 2,
+     "remarques": "type Halstead",
+     "conditions": [
+      "sac"
+     ]
+    },
+    {
+     "article": "Set hémorragie (garrot tourniquet, pansement compressif, bande granulés hémostatiques)",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "set type 4BC®, bande type Chito-SAM®",
+     "conditions": [
+      "sac"
+     ]
+    },
+    {
+     "article": "Set dentaire stérile (miroir, précelle, sonde n° 6, écarteur, spatule de bouche, bloc à spatuler)",
+     "presentation": "set stérile",
+     "quantite": 2,
+     "remarques": "usage unique (type DentaNurse®)"
+    },
+    {
+     "article": "Ciment d'obturation temporaire de longue durée (oxyde de zinc / eugénol renforcé de résine)",
+     "presentation": "unité",
+     "quantite": 2,
+     "remarques": "type IRM®"
+    }
+   ]
+  },
+  {
+   "categorie": "4. Matériel d'examen et de surveillance médicale",
+   "articles": [
+    {
+     "article": "Tensiomètre",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "automatique à brassard huméral",
+     "conditions": [
+      "sac"
+     ]
+    },
+    {
+     "article": "Stéthoscope",
+     "presentation": "unité",
+     "quantite": 1,
+     "conditions": [
+      "sac"
+     ]
+    },
+    {
+     "article": "Oxymètre de pouls",
+     "presentation": "unité",
+     "quantite": 1,
+     "conditions": [
+      "sac"
+     ]
+    },
+    {
+     "article": "Thermomètre médical digital",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "à utilisation axillaire, buccale et rectale"
+    },
+    {
+     "article": "Thermomètre hypothermique",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "mesure jusqu'à 25 °C"
+    },
+    {
+     "article": "Lecteur de glycémie capillaire",
+     "presentation": "unité",
+     "quantite": 1,
+     "conditions": [
+      "sac"
+     ]
+    },
+    {
+     "article": "Bandelettes réactives pour glycémie capillaire (compatibles avec le lecteur)",
+     "presentation": "boîte",
+     "quantite": 1,
+     "remarques": "avec lancettes capillaires sécurisées, conditionnées à l'unité et non en barillet",
+     "conditions": [
+      "sac"
+     ]
+    },
+    {
+     "article": "Bandelettes réactives pour examen d'urines",
+     "presentation": "flacon",
+     "quantite": 1,
+     "remarques": "recherche protéines, glucose, sang, acétone, nitrites, leucocytes"
+    },
+    {
+     "article": "Test de diagnostic rapide des angines à Streptocoque du groupe A",
+     "presentation": "25 tests",
+     "quantite": 1,
+     "remarques": "type Streptatest®"
+    },
+    {
+     "article": "Test de grossesse",
+     "presentation": "unité",
+     "quantite": 2
+    },
+    {
+     "article": "Abaisse-langue",
+     "presentation": "unité",
+     "quantite": 50,
+     "remarques": "usage unique"
+    },
+    {
+     "article": "Lampe stylo avec capuchon pour lumière bleue",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "pour recherche de corps étranger oculaire"
+    },
+    {
+     "article": "Loupe incassable",
+     "presentation": "unité",
+     "quantite": 1
+    },
+    {
+     "article": "Otoscope multi-usages (oreilles-nez)",
+     "presentation": "unité",
+     "quantite": 1
+    },
+    {
+     "article": "Spéculum auriculaire universel",
+     "presentation": "kit de 250",
+     "quantite": 1,
+     "remarques": "usage unique - diamètre 4 mm"
+    },
+    {
+     "article": "Lampe spot pour éclairage du champ opératoire",
+     "presentation": "unité",
+     "quantite": 1
+    }
+   ]
+  },
+  {
+   "categorie": "5. Matériel d'injection, de perfusion, de ponction et de sondage",
+   "articles": [
+    {
+     "article": "Aiguille à injection sous-cutanée stérile (25 G - 0,5 x 16)",
+     "presentation": "unité",
+     "quantite": 10,
+     "remarques": "usage unique"
+    },
+    {
+     "article": "Aiguille à injection intramusculaire stérile (21 G - 0,8 x 40)",
+     "presentation": "unité",
+     "quantite": 10,
+     "remarques": "usage unique"
+    },
+    {
+     "article": "Aiguille à injection intraveineuse stérile (23 G - 0,6 x 25)",
+     "presentation": "unité",
+     "quantite": 10,
+     "remarques": "usage unique"
+    },
+    {
+     "article": "Aiguille à injection stérile (19 G - 1,1 x 40) : trocart",
+     "presentation": "unité",
+     "quantite": 20,
+     "remarques": "usage unique"
+    },
+    {
+     "article": "Cathéter intraveineux court 20 G",
+     "presentation": "unité",
+     "quantite": 5,
+     "remarques": "usage unique"
+    },
+    {
+     "article": "Cathéter intraveineux court 18 G",
+     "presentation": "unité",
+     "quantite": 5,
+     "remarques": "usage unique"
+    },
+    {
+     "article": "Cathéter intraveineux court 16 G",
+     "presentation": "unité",
+     "quantite": 2,
+     "remarques": "usage unique"
+    },
+    {
+     "article": "Seringue 5 ml",
+     "presentation": "unité",
+     "quantite": 20,
+     "remarques": "usage unique"
+    },
+    {
+     "article": "Seringue 10 ml",
+     "presentation": "unité",
+     "quantite": 20,
+     "remarques": "usage unique"
+    },
+    {
+     "article": "Nécessaire à perfusion",
+     "presentation": "set stérile",
+     "quantite": 5,
+     "remarques": "tubulure avec site d'injection et robinet 3 voies"
+    },
+    {
+     "article": "Garrot en caoutchouc pour voie veineuse",
+     "presentation": "unité",
+     "quantite": 2
+    },
+    {
+     "article": "Champ adhésif transparent (10 cm x 14 cm)",
+     "presentation": "unité",
+     "quantite": 10,
+     "remarques": "fixation de cathéter"
+    },
+    {
+     "article": "Potence à perfusion",
+     "presentation": "unité",
+     "quantite": 1
+    },
+    {
+     "article": "Set de sondage urétral",
+     "presentation": "unité",
+     "quantite": 2,
+     "remarques": "type MEDISET® Sondage urinaire"
+    },
+    {
+     "article": "Sonde urinaire de Foley Ch 16 - 40 cm",
+     "presentation": "unité",
+     "quantite": 1
+    },
+    {
+     "article": "Sonde urinaire de Foley Ch 18 - 40 cm",
+     "presentation": "unité",
+     "quantite": 1
+    },
+    {
+     "article": "Poche collectrice d'urines",
+     "presentation": "unité",
+     "quantite": 2,
+     "remarques": "usage unique"
+    },
+    {
+     "article": "Trocart pour drainage urinaire percutané",
+     "presentation": "set stérile",
+     "quantite": 1,
+     "remarques": "cathéter sus-pubien"
+    },
+    {
+     "article": "Canule rectale",
+     "presentation": "unité",
+     "quantite": 2,
+     "remarques": "usage unique"
+    }
+   ]
+  },
+  {
+   "categorie": "6. Matériel médical général",
+   "articles": [
+    {
+     "article": "Sac d'intervention",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "pour transport du matériel d'urgence et de réanimation"
+    },
+    {
+     "article": "Gel antiseptique hydroalcoolique pour la peau saine",
+     "presentation": "flacon 500 ml",
+     "quantite": 1,
+     "remarques": "pour antisepsie des mains"
+    },
+    {
+     "article": "Gants d'examen non stériles",
+     "presentation": "boîte de 100",
+     "quantite": 1,
+     "remarques": "taille M et L"
+    },
+    {
+     "article": "Gants de chirurgie poudrés stériles",
+     "presentation": "paire",
+     "quantite": 20,
+     "remarques": "taille 7,5 et 8,5"
+    },
+    {
+     "article": "Masque facial de chirurgie",
+     "presentation": "unité",
+     "quantite": 10,
+     "remarques": "usage unique"
+    },
+    {
+     "article": "Blouse chirurgicale stérile",
+     "presentation": "unité",
+     "quantite": 4,
+     "remarques": "usage unique"
+    },
+    {
+     "article": "Brosse à antisepsie",
+     "presentation": "unité",
+     "quantite": 2,
+     "remarques": "usage unique"
+    },
+    {
+     "article": "Collecteur d'aiguilles",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "0,45 litre"
+    },
+    {
+     "article": "Sac DASRI (déchets d'activités de soins à risques infectieux)",
+     "presentation": "rouleau de 25",
+     "quantite": 2,
+     "remarques": "taille 20 l"
+    },
+    {
+     "article": "Urinal pour homme",
+     "presentation": "unité",
+     "quantite": 1
+    },
+    {
+     "article": "Bassin de commodité",
+     "presentation": "unité",
+     "quantite": 1
+    },
+    {
+     "article": "Vessie à glace en caoutchouc",
+     "presentation": "unité",
+     "quantite": 1
+    },
+    {
+     "article": "Couverture de survie",
+     "presentation": "unité",
+     "quantite": 4,
+     "remarques": "usage unique"
+    },
+    {
+     "article": "Préservatifs",
+     "presentation": "unité",
+     "quantite": 100
+    },
+    {
+     "article": "Housse mortuaire",
+     "presentation": "unité",
+     "quantite": 1
+    },
+    {
+     "article": "Sac en plastique",
+     "presentation": "unité",
+     "quantite": 2,
+     "remarques": "petite dimension, pour conservation dans la glace de pièces anatomiques d'amputation"
+    }
+   ]
+  },
+  {
+   "categorie": "7. Matériel d'immobilisation et de contention",
+   "articles": [
+    {
+     "article": "Attelle en aluminium malléable pour doigt",
+     "presentation": "unité",
+     "quantite": 2
+    },
+    {
+     "article": "Attelle / orthèse rigide poignet-main",
+     "presentation": "unité",
+     "quantite": 2,
+     "remarques": "type Axmed® ou Lépine® (modèle bilatéral)"
+    },
+    {
+     "article": "Echarpe de contention et d'immobilisation épaule-bras",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "type Axmed®"
+    },
+    {
+     "article": "Attelle complète de jambe",
+     "presentation": "unité",
+     "quantite": 2,
+     "remarques": "attaches rapides velcro"
+    },
+    {
+     "article": "Cannes anglaises",
+     "presentation": "paire",
+     "quantite": 1
+    },
+    {
+     "article": "Orthèse de cheville rigide",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "type Active Axmed® (modèle bilatéral)"
+    },
+    {
+     "article": "Collier pour immobilisation cervicale rigide",
+     "presentation": "set de 3 tailles",
+     "quantite": 1,
+     "remarques": "set de 3 tailles ou réglable"
+    },
+    {
+     "article": "Attelle cervico-thoracique",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "type KED®"
+    },
+    {
+     "article": "Civière polyvalente treuillable",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "type Bellisle® avec dispositif de contention (non destinée à l'héli-treuillage)"
+    },
+    {
+     "article": "Bande adhésive élastique (10 cm)",
+     "presentation": "rouleau",
+     "quantite": 1
+    },
+    {
+     "article": "Suspensoir avec sangles",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "taille médiane"
+    }
+   ]
+  },
+  {
+   "categorie": "8. Documentation",
+   "articles": [
+    {
+     "article": "Registre de la dotation médicale",
+     "presentation": "unité",
+     "quantite": 1
+    },
+    {
+     "article": "Bon de commande pré-imprimé",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "pour la dotation du navire"
+    },
+    {
+     "article": "Guide des spécialités pharmaceutiques",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "type Vidal de la famille - Guide de l'automédication"
+    },
+    {
+     "article": "Fiche d'observation médicale",
+     "presentation": "unité",
+     "quantite": 20,
+     "remarques": "pour téléconsultation"
+    },
+    {
+     "article": "Guide médical de bord",
+     "presentation": "unité",
+     "quantite": 1
+    },
+    {
+     "article": "Cahier médical",
+     "presentation": "unité",
+     "quantite": 1
+    }
+   ]
+  },
+  {
+   "categorie": "9. Trousse de premiers secours",
+   "conditions": [
+    "equipage>10",
+    "kit:trousse"
+   ],
+   "articles": [
+    {
+     "article": "Compresses de gaze stériles",
+     "presentation": "paquet de 5",
+     "quantite": 2,
+     "remarques": "taille moyenne"
+    },
+    {
+     "article": "Chlorhexidine solution aqueuse 0,2 %",
+     "presentation": "unidose",
+     "quantite": 2
+    },
+    {
+     "article": "Coussin hémostatique",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "type CHUT®"
+    },
+    {
+     "article": "Bande de crêpe (10 cm)",
+     "presentation": "rouleau 4 m",
+     "quantite": 1,
+     "remarques": "type Velpeau®"
+    },
+    {
+     "article": "Bande auto-adhésive (10 cm)",
+     "presentation": "rouleau 4 m",
+     "quantite": 1,
+     "remarques": "type Coheban®"
+    },
+    {
+     "article": "Pansement adhésif stérile étanche",
+     "presentation": "boîte",
+     "quantite": 1,
+     "remarques": "assortiment 3 tailles"
+    },
+    {
+     "article": "Gel antiseptique hydroalcoolique pour la peau saine",
+     "presentation": "flacon 75 ml",
+     "quantite": 1
+    },
+    {
+     "article": "Gants d'examen non stériles",
+     "presentation": "paire",
+     "quantite": 4,
+     "remarques": "taille M et L"
+    }
+   ]
+  },
+  {
+   "categorie": "10. Matériel de téléconsultation cardiologique",
+   "articles": [
+    {
+     "article": "Appareil d'enregistrement ECG 12 dérivations avec transmission (INMARSAT ou HF, envoi de mail)",
+     "presentation": "unité",
+     "quantite": 1,
+     "remarques": "pour les navires sans médecin"
+    }
+   ]
+  },
+  {
+   "categorie": "11. Désinfection - Désinsectisation - Protection",
+   "articles": [
+    {
+     "article": "Comprimés chlorés pour stérilisation de l'eau",
+     "presentation": "-",
+     "quantite": "selon capacité des réservoirs",
+     "remarques": "quantité permettant d'obtenir une concentration de chlore de 5 mg/l d'eau en cas de contamination avérée"
+    },
+    {
+     "article": "Eau de Javel concentrée à 9,6 % ou pastilles chlorées à 1,5 g",
+     "presentation": "bouteille",
+     "quantite": 2,
+     "remarques": "application cutanée ou désinfection des surfaces"
+    },
+    {
+     "article": "Détergent désinfectant de surface",
+     "presentation": "litre",
+     "quantite": 2,
+     "remarques": "type Anios®"
+    },
+    {
+     "article": "Insecticide liquide",
+     "presentation": "unité",
+     "quantite": 2
+    },
+    {
+     "article": "Néopynamine forte - Sumithrine",
+     "presentation": "unité",
+     "quantite": 2,
+     "remarques": "type APAR®, aérosol 125 g / 200 ml - nettoyage poux, gale"
+    }
+   ]
+  }
+ ]
+}
