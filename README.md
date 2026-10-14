@@ -9,7 +9,7 @@
 ![tkinter](https://img.shields.io/badge/interface-tkinter-3776AB)
 ![SQLite](https://img.shields.io/badge/SQLite-base%20locale-003B57?logo=sqlite&logoColor=white)
 ![Plateforme](https://img.shields.io/badge/plateforme-Windows-0078D6?logo=windows&logoColor=white)
-![Licence](https://img.shields.io/badge/licence-GPL--3.0--only-blue)
+![Licence](https://img.shields.io/badge/licence-GPL--3.0--or--later-blue)
 
 </div>
 
@@ -249,8 +249,8 @@ référentiel les harmonise, pour qu'un même produit soit reconnu dans toutes l
 
 ## 10. Licence
 
-Pharma Bord est un **logiciel libre**, distribué sous la licence **GNU General Public License, version 3**
-(GPL-3.0-only).
+Pharma Bord est un **logiciel libre**, distribué sous la licence **GNU General Public License, version 3 ou ultérieure**
+(GPL-3.0-or-later).
 
 Copyright © 2026 ETDEL.
 
@@ -267,4 +267,4 @@ des textes officiels publiés au Journal officiel.
 
 ---
 
-*Pharma Bord — ETDEL 2026 — GPL-3.0-only*
+*Pharma Bord — ETDEL 2026 — GPL-3.0-or-later*
