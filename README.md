@@ -13,6 +13,8 @@
 
 </div>
 
+**Français** · [English](README.en.md)
+
 ---
 
 > [!WARNING]
