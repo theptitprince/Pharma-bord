@@ -1,3 +1,6 @@
+# Pharma Bord, par ETDEL — https://github.com/theptitprince/Pharma-bord
+# Copyright © 2026 ETDEL. Licence GPL-3.0-or-later avec conditions additionnelles
+# (article 7) : voir les fichiers LICENSE et NOTICE.
 """Chargement du référentiel réglementaire depuis le dossier ``referentiel/``.
 
 Le référentiel est une transcription de la Division 217 : il n'est pas destiné à

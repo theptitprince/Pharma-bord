@@ -4,7 +4,7 @@
 
 **The stock of medicines and medical equipment of a French-flagged ship, tracked against the regulatory allowance of Division 217.**
 
-![Version](https://img.shields.io/badge/version-1.0.0-2ea44f)
+![Version](https://img.shields.io/badge/version-1.1.0-2ea44f)
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
 ![tkinter](https://img.shields.io/badge/interface-tkinter-3776AB)
 ![SQLite](https://img.shields.io/badge/SQLite-local%20database-003B57?logo=sqlite&logoColor=white)
@@ -35,7 +35,7 @@ to the order of 23 November 1987), annexes 217-3.A.1 to 217-3.A.4 as worded by t
 allowance and prepare the replenishment order for the port call. The program does **stock management**: it does not
 replace the registers kept on board (in particular the paper controlled-drugs register) and stores no patient data.
 
-Current version: 1.0.0 — the release history is on the
+Current version: 1.1.0 — the release history is on the
 [published releases](https://github.com/theptitprince/Pharma-bord/releases) page.
 
 ## Contents
@@ -86,17 +86,18 @@ The `Pharma_Bord.bat` launcher (section 3) does this installation by itself if e
 
 | File | Role |
 |---|---|
-| `main.py` | entry point: opens the graphical interface; `--db` option to choose the database file |
+| `main.py` | entry point: opens the graphical interface; `--db` option to choose the database file, `--version` to show the version and the license |
 | `Pharma_Bord.bat` | Windows launcher: installs the libraries if needed, then starts the program without a console window |
 | `requirements.txt` | optional libraries: `openpyxl` (3.1 or later) and `sv-ttk` (2.6 or later) |
 | `pharma_bord/gui.py` | the interface (tkinter) |
 | `pharma_bord/moteur.py` | the calculation: required allowance, stock status, order to place |
 | `pharma_bord/db.py` | local storage (SQLite): ship configuration, boxes in stock, movement history |
-| `pharma_bord/referentiel.py` | loading of the reference data; its header describes the format of the JSON files |
+| `pharma_bord/referentiel.py` | loading of the reference data; the documentation at the top of the file describes the format of the JSON files |
 | `pharma_bord/export.py` | the exports: official order form (HTML), order (CSV), inventory (CSV, Excel), history (CSV) |
-| `pharma_bord/__init__.py` | the program's version number |
+| `pharma_bord/__init__.py` | the program's version number, the author notice and the texts of the « À propos » (about) window |
 | `referentiel/` | one JSON file per allowance, a transcription of Division 217 (section 7) |
 | `LICENSE` | the text of the GNU GPL v3 license (section 10) |
+| `NOTICE` | the additional license terms (section 7): the notice to keep |
 
 ## 3. Running the program
 
@@ -115,6 +116,8 @@ python main.py --db autre.db
 
 The path of the open database is shown in the *Navire & dotation* (ship & allowance) tab, next to the
 *Enregistrer et recalculer la dotation exigée* (save and recalculate the required allowance) button.
+
+`python main.py --version` shows the version, the author notice and the license, without opening the window.
 
 ## 4. Data
 
@@ -142,7 +145,9 @@ Windows temporary folder (`%TEMP%\pharma_bord\`); the other exports are saved wh
 
 ## 6. Usage
 
-The window is organized in five tabs.
+The window is organized in five tabs, below a header banner that sums up the ship, the allowance, the coverage
+horizon and the state of the stock. The banner also carries the *À propos…* (about) button and the notice
+"Pharma Bord, par ETDEL — https://github.com/theptitprince/Pharma-bord".
 
 ### Navire & dotation (ship & allowance)
 
@@ -182,6 +187,8 @@ to check.
 *Imprimer le bon de commande officiel* opens the form in the browser, with fields you can edit before printing. The
 other buttons save the form as HTML, the order as CSV and the inventory as Excel or CSV;
 *Bon complet (toute la dotation)* (complete form, whole allowance) also includes the items with no quantity to order.
+The help banner at the top of the form, shown on screen only, gives the version and the author notice; it is not
+printed, and the printed form stays true to the official model.
 
 ### Historique (history)
 
@@ -190,6 +197,12 @@ All stock movements, from the most recent to the oldest (the latest 5,000 at mos
 ### Réglementation (regulations)
 
 Browsing the transcribed allowances (read-only).
+
+### « À propos » (about) window
+
+The banner's *À propos…* button, or the **F1** key, opens the « À propos » window: program version, author notice,
+copyright, license (GPL v3 or later, with additional terms) and absence of warranty. The *Lire la licence* (read the
+license) and *Lire NOTICE* (read NOTICE) buttons show the text of the `LICENSE` and `NOTICE` files.
 
 ## 7. The regulatory reference data
 
@@ -258,11 +271,31 @@ redistributed version, modified or not, remains under the same license, with its
 notice. The program is provided **without any warranty**: it is an aid to managing the stock, which does not replace
 the official registers, the annual inspection of the allowance, or the advice of a doctor or a pharmacist.
 
+### Additional terms (section 7)
+
+The GPL v3 lets the author add a few terms (section 7). Pharma Bord's are in the
+[`NOTICE`](NOTICE) file, in French and in English:
+
+- **Attribution**: every copy or modified version must keep, visible to the user (an "About"
+  window or equivalent) and in its documentation, the notice:
+
+  > Pharma Bord, par ETDEL — https://github.com/theptitprince/Pharma-bord
+
+  A modified version may prefix it with "D'après" (or "Based on") and add its own credits,
+  but may neither remove nor hide it.
+- **Origin**: a modified version must state clearly that it has been modified, and must not
+  present itself as the original or as endorsed by ETDEL.
+
+In Pharma Bord, this notice is shown in the header banner and in the « À propos » (about) window (banner button or
+F1 key).
+
 The full text of the license is in the repository's `LICENSE` file and at
-<https://www.gnu.org/licenses/gpl-3.0.html>.
+<https://www.gnu.org/licenses/gpl-3.0.html>. Each source file (`main.py`, the modules in `pharma_bord/` and the
+`Pharma_Bord.bat` launcher) carries a header that points to `LICENSE` and `NOTICE`.
 
 The license covers the program's code. The regulatory texts transcribed in the `referentiel/` folder are official
-texts published in the French Official Journal (Journal officiel).
+texts published in the French Official Journal (Journal officiel), and the printed order form follows the official
+model of annex 217-3.A.5: the additional terms do not apply to them.
 
 ---
 

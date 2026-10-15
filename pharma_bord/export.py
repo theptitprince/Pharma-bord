@@ -1,3 +1,6 @@
+# Pharma Bord, par ETDEL — https://github.com/theptitprince/Pharma-bord
+# Copyright © 2026 ETDEL. Licence GPL-3.0-or-later avec conditions additionnelles
+# (article 7) : voir les fichiers LICENSE et NOTICE.
 """Exports : bon de commande (HTML imprimable et CSV), inventaire (CSV, Excel), historique (CSV)."""
 
 from __future__ import annotations
@@ -8,6 +11,7 @@ from datetime import date
 from pathlib import Path
 from typing import Dict, Iterable, List, Optional
 
+from . import MENTION, __version__
 from .db import ConfigNavire, Mouvement
 from .moteur import Analyse, EtatArticle, LIBELLES_DOTATION
 from .referentiel import TYPE_MED
@@ -78,6 +82,7 @@ _STYLE_BON = """
  body { font-family: Arial, Helvetica, sans-serif; font-size: 10.5px; margin: 16px; color: #000; }
  .aide { background: #fff8d6; border: 1px solid #e0c060; padding: 6px 10px; margin-bottom: 12px; font-size: 11px; }
  .aide button { font-size: 12px; padding: 4px 12px; margin-right: 10px; }
+ .aide .credit { display: block; margin-top: 4px; color: #6b5a1e; }
  h1 { font-size: 17px; text-align: center; margin: 4px 0 0; }
  .sous { text-align: center; font-size: 11px; margin: 0 0 2px; }
  h2 { font-size: 13px; text-align: center; margin: 2px 0; }
@@ -116,13 +121,16 @@ def commande_html(analyse: Analyse, cfg: ConfigNavire, chemin: Path, inclure_tou
         titre += f" + complément passagers {cfg.complement_passagers}"
     ed = ' contenteditable="true"'
     navire = esc(cfg.nom) + (f" – {esc(cfg.immatriculation)}" if cfg.immatriculation else "")
+    # bandeau d'aide, affiché à l'écran seulement (masqué à l'impression) : le bon imprimé reste au modèle officiel
+    credit = esc(f"Généré par Pharma Bord v{__version__} — {MENTION}")
     parts = [f"""<!DOCTYPE html>
 <html lang="fr"><head><meta charset="utf-8">
 <title>{esc(titre)} – Bon de commande</title>
 <style>{_STYLE_BON}</style></head><body>
 <div class="aide"><button onclick="window.print()">Imprimer</button>
 Toutes les cases (en-tête, spécialité délivrée, quantités demandées) sont modifiables : cliquez dans une case pour
-corriger le texte avant impression. Le cadre « Tampon humide » est réservé à la pharmacie.</div>
+corriger le texte avant impression. Le cadre « Tampon humide » est réservé à la pharmacie.
+<span class="credit">{credit}</span></div>
 """]
 
     def entete(sous_type: str) -> str:

@@ -1,3 +1,6 @@
+# Pharma Bord, par ETDEL — https://github.com/theptitprince/Pharma-bord
+# Copyright © 2026 ETDEL. Licence GPL-3.0-or-later avec conditions additionnelles
+# (article 7) : voir les fichiers LICENSE et NOTICE.
 """Stockage local (SQLite) : configuration du navire, lots en stock, registre des mouvements.
 
 Une base = un navire. Le fichier ``pharma_bord.db`` est créé dans le dossier du

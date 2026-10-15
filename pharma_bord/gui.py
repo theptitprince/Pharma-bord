@@ -1,3 +1,6 @@
+# Pharma Bord, par ETDEL — https://github.com/theptitprince/Pharma-bord
+# Copyright © 2026 ETDEL. Licence GPL-3.0-or-later avec conditions additionnelles
+# (article 7) : voir les fichiers LICENSE et NOTICE.
 """Interface graphique (tkinter) de Pharma Bord."""
 
 from __future__ import annotations
@@ -14,7 +17,7 @@ from tkinter import BooleanVar, IntVar, StringVar, Tk, Toplevel, filedialog, mes
 import tkinter as tk
 from typing import Callable, Dict, List, Optional
 
-from . import __version__
+from . import FICHIER_LICENCE, FICHIER_NOTICE, MENTION, URL_DEPOT, __version__, texte_a_propos
 from .db import (ArticlePerso, BaseDonnees, ConfigNavire, ExigenceSupplementaire, Lot, DB_FILE)
 from .export import (commande_csv, commande_html, inventaire_csv, inventaire_xlsx, lignes_commande,
                      mouvements_csv)
@@ -349,6 +352,16 @@ class Application(Tk):
         fixe(tk.Label(gauche, text="⚓  Pharma Bord", font=(POLICE, 19, "bold")), bg=BANDEAU, fg="white").pack(anchor="w")
         self.lbl_entete = fixe(tk.Label(gauche, text="", font=(POLICE, 10), justify="left"), bg=BANDEAU, fg="#c8d6e8")
         self.lbl_entete.pack(anchor="w", pady=(2, 0))
+        # mention d'auteur exigée par les conditions additionnelles de la licence (NOTICE, article 7 b), suivie du
+        # bouton « À propos… » : à gauche du bandeau, ils restent visibles même si la fenêtre est étroite
+        ligne = fixe(tk.Frame(gauche), bg=BANDEAU)
+        ligne.pack(anchor="w", pady=(4, 0))
+        fixe(tk.Label(ligne, text=MENTION, font=(POLICE, 9)), bg=BANDEAU, fg="#9fb4d0").pack(side="left")
+        self.btn_a_propos = fixe(tk.Button(ligne, text="À propos…", font=(POLICE, 9), relief="flat", bd=0,
+                                           padx=10, pady=1, cursor="hand2", command=self.dialogue_a_propos),
+                                 bg="#24507f", fg="white", activebackground="#2f639b", activeforeground="white")
+        self.btn_a_propos.pack(side="left", padx=(12, 0))
+        self.bind("<F1>", lambda e: self.dialogue_a_propos())
         self.tuiles: Dict[str, tk.Label] = {}
         droite = fixe(tk.Frame(ent), bg=BANDEAU)
         droite.pack(side="right")
@@ -1525,8 +1538,35 @@ class Application(Tk):
         for k, v in r.items():
             lignes.append(f"• {k} : {v}")
         self.lbl_resume.config(text="\n".join(lignes))
+        a_remplacer = r["lots expirant avant l'horizon"]
         self.barre.config(text=f"{r['articles exigés']} articles exigés – {r['à commander']} à commander – "
-                               f"{r['lots périmés']} boîtes périmées – {r['lots expirant avant l\'horizon']} boîtes à remplacer")
+                               f"{r['lots périmés']} boîtes périmées – {a_remplacer} boîtes à remplacer")
+
+    # ------------------------------------------------------------------ à propos
+    def dialogue_a_propos(self):
+        """Fenêtre « À propos » (bouton du bandeau ou F1) : version, mention d'auteur, licence, absence de
+        garantie ; « Lire la licence » et « Lire NOTICE » affichent ces fichiers dans le programme."""
+        if getattr(self, "_a_propos_ouvert", False):
+            return
+        self._a_propos_ouvert = True
+        try:
+            d = Dialogue(self, "À propos de Pharma Bord")
+            titre, _, corps = texte_a_propos().partition("\n")
+            ttk.Label(d.corps, text=titre, font=(POLICE, 14, "bold")).pack(anchor="w")
+            ttk.Label(d.corps, text=corps.strip("\n"), justify="left", wraplength=660,
+                      font=(POLICE, 10)).pack(anchor="w", pady=(6, 0))
+            fermer = ttk.Button(d.boutons, text="Fermer", style="Accent.TButton", command=lambda: d._fermer(True))
+            fermer.pack(side="right")
+            ttk.Button(d.boutons, text="Lire la licence", command=lambda: afficher_fichier(
+                d, "Licence – GNU GPL version 3", FICHIER_LICENCE)).pack(side="left")
+            ttk.Button(d.boutons, text="Lire NOTICE", command=lambda: afficher_fichier(
+                d, "NOTICE – conditions additionnelles (article 7)", FICHIER_NOTICE)).pack(side="left", padx=4)
+            # Entrée actionne le bouton qui a le focus (atteint par Tab) ; ailleurs, elle ferme la fenêtre
+            d.bind("<Return>", lambda e: e.widget.invoke() if isinstance(e.widget, ttk.Button) else d._fermer(True))
+            fermer.focus_set()          # Échap et Entrée ferment la fenêtre dès son ouverture
+            d.attendre()
+        finally:
+            self._a_propos_ouvert = False
 
     def _quitter(self):
         try:
@@ -1773,6 +1813,48 @@ class Dialogue(Toplevel):
         self.grab_set()
         self.wait_window()
         return self.resultat
+
+
+def afficher_fichier(parent, titre: str, chemin: Path) -> None:
+    """Affiche un fichier texte du programme (LICENSE, NOTICE) dans une fenêtre modale, avec défilement.
+    Ces fichiers n'ont pas d'extension : os.startfile ouvrirait le choix d'application de Windows."""
+    try:
+        texte = chemin.read_text(encoding="utf-8", errors="replace")
+    except OSError:
+        texte = (f"Fichier {chemin.name} introuvable à côté du programme.\n\n"
+                 f"Il est consultable sur {URL_DEPOT}/blob/main/{chemin.name}")
+    fen = Toplevel(parent)
+    fen.title(titre)
+    fen.transient(parent)
+    cadre = ttk.Frame(fen, padding=(12, 12, 12, 0))
+    cadre.pack(fill="both", expand=True)
+    zone = fixe(tk.Text(cadre, wrap="word", width=124, height=32, font=("Consolas", 10), padx=10, pady=8,
+                        relief="flat", bd=0), bg="white", fg="#222")
+    sb = ttk.Scrollbar(cadre, orient="vertical", command=zone.yview)
+    zone.configure(yscrollcommand=sb.set)
+    zone.insert("1.0", texte)
+    zone.configure(state="disabled")
+    zone.pack(side="left", fill="both", expand=True)
+    sb.pack(side="right", fill="y")
+    bas = ttk.Frame(fen, padding=12)
+    bas.pack(fill="x")
+
+    def fermer(*_):
+        fen.grab_release()
+        fen.destroy()
+
+    ttk.Button(bas, text="Fermer", style="Accent.TButton", command=fermer).pack(side="right")
+    fen.bind("<Escape>", fermer)
+    fen.protocol("WM_DELETE_WINDOW", fermer)
+    fen.update_idletasks()
+    fen.geometry(f"+{max(parent.winfo_rootx() - 120, 0)}+{max(parent.winfo_rooty() - 120, 0)}")
+    fen.grab_set()
+    zone.focus_set()
+    fen.wait_window()
+    try:
+        parent.grab_set()   # la fenêtre « À propos » redevient modale
+    except tk.TclError:
+        pass
 
 
 def lancer(chemin_db: Optional[str] = None):
